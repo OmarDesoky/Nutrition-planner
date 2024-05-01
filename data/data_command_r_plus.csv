@@ -39,7 +39,6 @@ Age,Gender,BMI,Metabolic rate,Physical activity intensity,Blood pressure,Diabeti
 55,Female,32,Low,Low,Hypertension,High,False,Abnormal,Normal,Lose weight,90,210,30,1150,1150,750,1600
 60,Male,30,Mid,Mid,Normal,Normal,False,Normal,Abnormal,Gain endurance,180,280,70,1250,1250,850,3000
 40,Female,22,High,High,Normal,Normal,False,Normal,Normal,Gain weight,200,350,100,1300,1300,900,4000
-Age,Gender,BMI,Metabolic_Rate,Physical_Activity_Intensity,Blood_Pressure,Diabetic,Heart_Disease,Anemia,Lactose_Intolerance,Nutrition_Goal,Proteins,Carbohydrates,Fats,Calcium,Vitamin_A,Vitamin_C,Calories
 50,Female,22.9,Mid,Mid,Normal,High,False,Abnormal,Abnormal,Lose Weight,133,216,82,1244,1242,715,2112
 14,Male,24.2,Mid,Mid,Normal,Normal,False,Normal,Abnormal,Gain Weight,163,229,32,1260,1161,720,3311
 28,Female,23.5,High,Mid,Normal,Normal,False,Normal,Abnormal,Gain Weight,56,222,93,1251,1119,763,2299
