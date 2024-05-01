@@ -1,0 +1,85 @@
+Age,Gender,BMI,Metabolic rate,Physical activity intensity,Blood pressure,Diabetic,Heart disease,Anemia,Lactose Intolerance,Nutrition goal,Proteins,Carbohydrates,Fats,Calcium,Vitamin_A,Vitamin_C,Calories
+35,Male,25,Mid,Mid,Normal,Normal,False,Normal,Normal,Gain muscle,150,250,60,1200,1200,800,2500
+45,Female,30,Low,Low,Normal,High,False,Abnormal,Abnormal,Lose weight,100,200,40,1100,1100,700,1500
+50,Male,28,High,High,Hypertension,Severely high,True,Severely abnormal,Normal,Maintain weight,200,300,80,1300,1300,900,3500
+47,Female,27.3,Mid,High,Normal,Normal,False,Normal,Abnormal,Gain Muscle,124,272,66,1219,1241,789,2956
+22,Male,21.9,High,Very Low,Hypotension,Normal,False,Severely Abnormal,Abnormal,Lose Weight,182,252,95,1185,1219,762,2206
+59,Female,23.7,Mid,Mid,Normal,Normal,False,Normal,Normal,Maintain Weight,101,290,43,1258,1116,727,1804
+37,Male,31.4,Low,Very High,Hypertension,High,False,Abnormal,Abnormal,Lose Weight,63,306,116,1290,1225,768,3021
+25,Female,17.1,Very Low,Low,Hypotension,Normal,False,Normal,Abnormal,Gain Weight,53,267,91,1158,1276,711,2612
+17,Male,22.6,High,Very High,Normal,Normal,False,Severely Abnormal,Normal,Gain Endurance,229,317,56,1266,1120,733,4081
+61,Female,37.9,Low,Mid,Hypertension,Severely High,True,Abnormal,Abnormal,Lose Weight,151,215,106,1229,1274,708,2615
+32,Male,25.7,Mid,High,Normal,High,False,Abnormal,Abnormal,Lose Weight,119,323,52,1227,1208,761,2702
+53,Female,19.6,Very Low,Very Low,Hypotension,Normal,False,Normal,Abnormal,Gain Weight,52,212,101,1182,1190,723,2062
+15,Male,22.3,Mid,Mid,Normal,Normal,False,Normal,Normal,Gain Weight,163,229,32,1260,1161,720,3311
+41,Female,32.1,Low,Low,Hypertension,High,False,Normal,Abnormal,Lose Weight,199,222,104,1225,1222,732,2860
+29,Male,27.9,High,Very High,Normal,High,False,Abnormal,Abnormal,Lose Weight,137,260,76,1242,1233,758,2911
+65,Female,20.8,Very High,Mid,Normal,Normal,False,Normal,Abnormal,Maintain Weight,173,281,47,1256,1229,727,2608
+46,Male,30.5,Mid,Very Low,Normal,High,False,Abnormal,Abnormal,Lose Weight,142,298,66,1201,1151,785,2449
+23,Female,25.2,Mid,High,Normal,High,False,Abnormal,Abnormal,Lose Weight,155,267,70,1281,1159,763,2299
+57,Male,21.1,Mid,High,Normal,Normal,False,Abnormal,Abnormal,Maintain Weight,167,229,37,1174,1225,722,2933
+35,Female,28.7,Very Low,Low,Hypertension,High,False,Abnormal,Abnormal,Lose Weight,154,281,41,1256,1229,737,2008
+16,Male,21.4,Mid,Mid,Normal,Normal,False,Normal,Abnormal,Gain Weight,126,254,62,1114,1106,790,2387
+44,Female,27.6,Mid,Mid,Hypertension,High,False,Abnormal,Abnormal,Lose Weight,122,232,58,1221,1242,743,1858
+27,Male,22.3,Mid,High,Normal,Normal,False,Normal,Abnormal,Gain Muscle,222,293,74,1287,1154,724,3905
+62,Female,25.4,High,Mid,Normal,Normal,False,Normal,Abnormal,Maintain Weight,132,299,77,1208,1215,702,2314
+39,Male,29.2,Mid,Very High,Hypertension,High,False,Abnormal,Abnormal,Lose Weight,115,238,118,1276,1220,723,2939
+20,Female,22.8,Mid,High,Normal,Normal,False,Normal,Abnormal,Gain Weight,56,222,93,1251,1119,763,2299
+51,Male,25.1,Mid,Mid,Normal,High,False,Abnormal,Normal,Maintain Weight,102,287,48,1228,1146,728,2239
+33,Female,22.4,Mid,Mid,Normal,High,False,Abnormal,Abnormal,Lose Weight,125,262,104,1225,1222,732,2160
+18,Male,27.2,High,Very High,Normal,Normal,False,Normal,Abnormal,Gain Muscle,281,277,114,1228,1221,715,4367
+49,Female,27.8,Mid,Mid,Hypertension,High,False,Abnormal,Abnormal,Lose Weight,192,274,59,1232,1193,781,2319
+26,Male,29.3,Mid,High,Normal,High,False,Abnormal,Abnormal,Lose Weight,181,271,106,1229,1274,708,2815
+55,Female,26.5,Mid,Mid,Normal,High,False,Abnormal,Abnormal,Lose Weight,133,216,82,1244,1242,715,2112
+38,Male,23.9,Mid,Mid,Normal,High,False,Abnormal,Abnormal,Maintain Weight,103,281,47,1256,1229,727,2208
+24,Female,21.7,Mid,High,Normal,High,False,Abnormal,Abnormal,Lose Weight,155,267,70,1281,1159,763,2299
+63,Male,28.1,Mid,Mid,Normal,High,False,Abnormal,Abnormal,Maintain Weight,102,287,48,1228,1146,728,2239
+42,Female,24.6,High,Mid,Normal,High,False,Abnormal,Abnormal,Lose Weight,154,281,41,1256,1229,737,2008
+19,Male,26.7,Mid,Mid,Normal,Normal,False,Normal,Abnormal,Gain Weight,126,254,62,1114,1106,790,2387
+55,Female,32,Low,Low,Hypertension,High,False,Abnormal,Normal,Lose weight,90,210,30,1150,1150,750,1600
+60,Male,30,Mid,Mid,Normal,Normal,False,Normal,Abnormal,Gain endurance,180,280,70,1250,1250,850,3000
+40,Female,22,High,High,Normal,Normal,False,Normal,Normal,Gain weight,200,350,100,1300,1300,900,4000
+Age,Gender,BMI,Metabolic_Rate,Physical_Activity_Intensity,Blood_Pressure,Diabetic,Heart_Disease,Anemia,Lactose_Intolerance,Nutrition_Goal,Proteins,Carbohydrates,Fats,Calcium,Vitamin_A,Vitamin_C,Calories
+50,Female,22.9,Mid,Mid,Normal,High,False,Abnormal,Abnormal,Lose Weight,133,216,82,1244,1242,715,2112
+14,Male,24.2,Mid,Mid,Normal,Normal,False,Normal,Abnormal,Gain Weight,163,229,32,1260,1161,720,3311
+28,Female,23.5,High,Mid,Normal,Normal,False,Normal,Abnormal,Gain Weight,56,222,93,1251,1119,763,2299
+36,Male,25.7,Mid,Mid,Normal,High,False,Abnormal,Abnormal,Maintain Weight,103,281,47,1256,1229,727,2208
+60,Female,27.6,Mid,Mid,Hypertension,High,False,Abnormal,Abnormal,Lose Weight,192,274,59,1232,1193,781,2319
+21,Male,29.3,Mid,High,Normal,High,False,Abnormal,Abnormal,Lose Weight,181,271,106,1229,1274,708,2815
+40,Female,25.4,High,Mid,Normal,High,False,Abnormal,Abnormal,Maintain Weight,132,299,77,1208,1215,702,2314
+30,Male,22.3,Mid,High,Normal,High,False,Abnormal,Abnormal,Gain Muscle,222,293,74,1287,1154,724,3905
+52,Female,27.8,Mid,Mid,Hypertension,High,False,Abnormal,Abnormal,Lose Weight,199,222,104,1225,1222,732,2860
+34,Male,31.4,Low,Very High,Hypertension,High,False,Abnormal,Abnormal,Lose Weight,63,306,116,1290,1225,768,3021
+64,Female,23.7,Mid,Mid,Normal,Normal,False,Normal,Normal,Maintain Weight,101,290,43,1258,1116,727,1804
+48,Male,30.5,Mid,Very Low,Normal,High,False,Abnormal,Abnormal,Lose Weight,142,298,66,1201,1151,785,2449
+22,Female,25.2,Mid,High,Normal,High,False,Abnormal,Abnormal,Lose Weight,155,267,70,1281,1159,763,2299
+58,Male,21.1,Mid,High,Normal,Normal,False,Abnormal,Abnormal,Maintain Weight,167,229,37,1174,1225,722,2933
+15,Female,17.1,Very Low,Low,Hypotension,Normal,False,Normal,Abnormal,Gain Weight,53,267,91,1158,1276,711,2612
+46,Male,22.6,High,Very High,Normal,Normal,False,Severely Abnormal,Normal,Gain Endurance,229,317,56,1266,1120,733,4081
+32,Female,32.1,Low,Low,Hypertension,High,False,Normal,Abnormal,Lose Weight,199,222,104,1225,1222,732,2860
+54,Male,25.7,Mid,Mid,Normal,High,False,Abnormal,Abnormal,Maintain Weight,102,287,48,1228,1146,728,2239
+66,Female,20.8,Very High,Mid,Normal,Normal,False,Normal,Abnormal,Maintain Weight,173,281,47,1256,1229,727,2608
+26,Male,29.2,Mid,Very High,Hypertension,High,False,Abnormal,Abnormal,Lose Weight,115,238,118,1276,1220,723,2939
+18,Male,22.3,Mid,Mid,Normal,Normal,False,Normal,Normal,Gain Weight,126,254,62,1114,1106,790,2387
+38,Female,23.9,Mid,Mid,Normal,High,False,Abnormal,Abnormal,Lose Weight,154,281,41,1256,1229,737,2008
+56,Male,21.4,Mid,Mid,Normal,Normal,False,Abnormal,Abnormal,Maintain Weight,103,281,47,1256,1229,727,2208
+42,Male,29.2,Mid,Mid,Normal,High,False,Abnormal,Abnormal,Maintain Weight,102,287,48,1228,1146,728,2239
+62,Female,24.6,High,Mid,Normal,High,False,Abnormal,Abnormal,Lose Weight,154,281,41,1256,1229,737,2008
+31,Female,22.4,Mid,Mid,Normal,High,False,Abnormal,Abnormal,Lose Weight,125,262,104,1225,1222,732,2160
+53,Male,25.1,Mid,Mid,Normal,High,False,Abnormal,Normal,Maintain Weight,102,287,48,1228,1146,728,2239
+65,Female,28.1,Mid,Mid,Normal,High,False,Abnormal,Abnormal,Maintain Weight,102,287,48,1228,1146,728,2239
+27,Male,22.3,Mid,High,Normal,High,False,Abnormal,Abnormal,Gain Muscle,222,293,74,1287,1154,724,3905
+23,Male,29.3,Mid,High,Normal,High,False,Abnormal,Abnormal,Lose Weight,181,271,106,1229,1274,708,2815
+47,Female,27.6,Mid,Mid,Hypertension,High,False,Abnormal,Abnormal,Lose Weight,122,232,58,1221,1242,743,1858
+35,Male,23.9,Mid,Mid,Normal,High,False,Abnormal,Abnormal,Maintain Weight,103,281,47,1256,1229,727,2208
+59,Female,21.1,Mid,High,Normal,Normal,False,Abnormal,Abnormal,Maintain Weight,167,229,37,1174,1225,722,2933
+25,Male,21.4,Mid,Mid,Normal,Normal,False,Abnormal,Abnormal,Maintain Weight,103,281,47,1256,1229,727,2208
+43,Female,21.7,Mid,High,Normal,High,False,Abnormal,Abnormal,Lose Weight,155,267,70,1281,1159,763,2299
+61,Male,29.2,Mid,Mid,Normal,High,False,Abnormal,Abnormal,Maintain Weight,102,287,48,1228,1146,728,2239
+33,Female,24.6,High,Mid,Normal,High,False,Abnormal,Abnormal,Lose Weight,154,281,41,1256,1229,737,2008
+55,Male,26.7,Mid,Mid,Normal,Normal,False,Normal,Abnormal,Gain Weight,126,254,62,1114,1106,790,2387
+29,Female,22.3,Mid,High,Normal,High,False,Abnormal,Abnormal,Gain Muscle,222,293,74,1287,1154,724,3905
+45,Male,22.4,Mid,Mid,Normal,High,False,Abnormal,Abnormal,Lose Weight,125,262,104,1225,1222,732,2160
+63,Female,25.1,Mid,Mid,Normal,High,False,Abnormal,Normal,Maintain Weight,102,287,48,1228,1146,728,2239
+37,Male,25.7,Mid,Mid,Normal,High,False,Abnormal,Abnormal,Maintain Weight,102,287,48,1228,1146,728,2239
+51,Female,22.3,Mid,High,Normal,High,False,Abnormal,Abnormal,Gain Muscle,222,293,74,1287,1154,724,3905
