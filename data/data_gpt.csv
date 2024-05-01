@@ -1,4 +1,4 @@
-Age,Gender,BMI,Metabolic rate,Physical activity intensity,Blood pressure,Diabetic,Heart disease,Anemia,Lactose Intolerance,Nutrition goal,Proteins (g/day),Carbohydrates (g/day),Fats (g/day),Calcium (mg/day),Vitamin_A (µg/day),Vitamin_C (mg/day),Calories (kcal/day)
+Age,Gender,BMI,Metabolic rate,Physical activity intensity,Blood pressure,Diabetic,Heart disease,Anemia,Lactose Intolerance,Nutrition goal,Proteins,Carbohydrates,Fats,Calcium,Vitamin_A,Vitamin_C,Calories
 32,male,24,low,low,normal,normal,false,normal,normal,lose weight,90,250,60,1200,1200,800,2500
 41,female,29,high,mid,hypertension,high,false,normal,abnormal,gain weight,150,300,80,1300,1100,750,3000
 22,female,20,mid,high,normal,normal,false,normal,normal,maintain weight,70,300,50,1100,1300,700,2200
@@ -28,7 +28,6 @@ Age,Gender,BMI,Metabolic rate,Physical activity intensity,Blood pressure,Diabeti
 33,male,22,high,high,normal,normal,false,normal,normal,lose weight,90,250,60,1200,1200,750,2500
 55,female,30,mid,mid,hypertension,high,true,normal,normal,gain weight,120,300,70,1200,1200,800,3000
 20,male,23,mid,high,normal,normal,false,normal,normal,lose weight,80,240,50,1150,1300,750,2300
-Age,Gender,BMI,Metabolic rate,Physical activity intensity,Blood pressure,Diabetic,Heart disease,Anemia,Lactose Intolerance,Nutrition goal,Proteins (g/day),Carbohydrates (g/day),Fats (g/day),Calcium (mg/day),Vitamin_A (μg/day),Vitamin_C (mg/day),Calories (kcal/day)
 30,male,23.5,mid,high,normal,normal,false,normal,normal,gain weight,80,300,70,1200,1200,800,3200
 45,female,29.8,mid,low,hypertension,high,true,abnormal,abnormal,lose weight,80,200,50,1100,1100,700,2200
 26,female,19.3,mid,very high,normal,normal,false,normal,abnormal,maintain weight,70,250,60,1200,1300,750,2700
@@ -147,7 +146,6 @@ Age,Gender,BMI,Metabolic rate,Physical activity intensity,Blood pressure,Diabeti
 26,male,26.3,mid,high,hypertension,normal,false,normal,abnormal,gain weight,80,300,70,1200,1200,800,3200
 52,female,31.8,mid,high,normal,normal,false,abnormal,abnormal,maintain weight,70,250,60,1200,1200,750,2700
 48,male,25.9,mid,high,normal,high,true,abnormal,abnormal,lose weight,70,200,45,1200,1200,700,2000
-Age,Gender,BMI,Metabolic rate,Physical activity intensity,Blood pressure,Diabetic,Heart disease,Anemia,Lactose Intolerance,Nutrition goal,Proteins (g),Carbohydrates (g),Fats (g),Calcium (mg),Vitamin_A (mcg),Vitamin_C (mg),Calories (kcal)
 29,male,26.5,low,high,normal,normal,false,normal,normal,lose weight,75,250,50,1200,1200,800,2500
 42,female,31.2,high,high,hypertension,high,false,normal,abnormal,gain weight,100,300,70,1100,1300,750,3200
 54,female,19.8,high,low,hypertension,high,true,severely abnormal,normal,maintain weight,65,250,60,1200,1250,800,2700

@@ -1,0 +1,486 @@
+Age,Gender,BMI,Metabolic rate,Physical activity intensity,Blood pressure,Diabetic,Heart disease,Anemia,Lactose Intolerance,Nutrition goal,Proteins,Carbohydrates,Fats,Calcium,Vitamin_A,Vitamin_C,Calories
+32,male,24,low,low,normal,normal,false,normal,normal,lose weight,90,250,60,1200,1200,800,2500
+41,female,29,high,mid,hypertension,high,false,normal,abnormal,gain weight,150,300,80,1300,1100,750,3000
+22,female,20,mid,high,normal,normal,false,normal,normal,maintain weight,70,300,50,1100,1300,700,2200
+58,male,32,mid,very high,hypertension,severely high,true,severely abnormal,normal,lose weight,100,220,70,1250,1200,800,2600
+48,male,27,mid,high,hypertension,high,false,abnormal,normal,maintain weight,80,270,60,1200,1200,750,2400
+35,female,21,high,high,normal,normal,false,normal,normal,gain muscle,120,280,70,1200,1200,800,2800
+26,male,22,high,high,normal,normal,false,normal,normal,lose weight,90,250,60,1200,1200,750,2500
+67,female,25,low,low,normal,normal,true,normal,normal,lose weight,80,230,50,1150,1300,750,2300
+54,male,30,mid,low,hypertension,normal,true,normal,normal,gain endurance,110,270,70,1200,1200,800,2700
+45,female,28,mid,high,normal,normal,false,normal,normal,lose weight,90,250,60,1200,1200,750,2500
+65,male,26,low,low,hypotension,high,true,abnormal,abnormal,maintain weight,70,270,50,1200,1200,800,2400
+29,female,23,low,low,normal,normal,false,normal,normal,lose weight,80,250,50,1200,1200,750,2400
+60,male,31,mid,low,hypertension,high,false,normal,normal,gain muscle,120,290,80,1200,1200,800,2900
+17,female,19,high,very high,normal,normal,false,normal,normal,gain weight,140,320,70,1200,1200,800,3100
+37,male,25,mid,mid,hypertension,high,false,abnormal,normal,lose weight,90,250,60,1200,1200,750,2500
+23,female,26,mid,high,normal,normal,false,normal,normal,lose weight,80,240,50,1150,1300,750,2300
+57,male,29,mid,mid,hypertension,high,true,normal,normal,lose weight,90,260,60,1200,1200,800,2600
+42,female,22,mid,high,normal,normal,false,normal,normal,maintain weight,80,280,50,1200,1200,750,2400
+50,male,28,mid,mid,hypertension,high,false,normal,normal,maintain weight,80,270,60,1200,1200,800,2600
+49,female,24,low,low,hypertension,high,false,normal,normal,gain weight,140,310,70,1200,1200,800,3100
+19,male,20,low,low,normal,normal,false,normal,normal,lose weight,80,240,50,1150,1300,750,2300
+39,female,26,low,mid,normal,normal,false,normal,normal,gain muscle,110,290,70,1200,1200,800,2900
+63,male,33,low,low,hypertension,high,true,abnormal,abnormal,lose weight,80,240,50,1150,1300,750,2300
+31,female,21,mid,high,normal,normal,false,normal,normal,lose weight,90,250,60,1200,1200,750,2500
+24,male,27,mid,mid,normal,normal,false,normal,normal,gain endurance,100,270,60,1200,1200,800,2600
+46,female,25,high,high,hypertension,high,false,normal,normal,maintain weight,80,280,50,1200,1200,750,2400
+33,male,22,high,high,normal,normal,false,normal,normal,lose weight,90,250,60,1200,1200,750,2500
+55,female,30,mid,mid,hypertension,high,true,normal,normal,gain weight,120,300,70,1200,1200,800,3000
+20,male,23,mid,high,normal,normal,false,normal,normal,lose weight,80,240,50,1150,1300,750,2300
+30,male,23.5,mid,high,normal,normal,false,normal,normal,gain weight,80,300,70,1200,1200,800,3200
+45,female,29.8,mid,low,hypertension,high,true,abnormal,abnormal,lose weight,80,200,50,1100,1100,700,2200
+26,female,19.3,mid,very high,normal,normal,false,normal,abnormal,maintain weight,70,250,60,1200,1300,750,2700
+58,male,32.1,low,very low,hypotension,high,true,severely abnormal,normal,lose weight,70,200,45,1200,1200,700,2000
+41,female,26.7,mid,high,hypertension,normal,false,abnormal,normal,gain muscle,90,300,80,1200,1200,800,3500
+20,male,21.5,mid,low,normal,normal,false,normal,abnormal,maintain weight,70,250,60,1200,1300,750,2700
+68,female,27.6,mid,low,normal,normal,false,normal,abnormal,gain endurance,80,250,65,1200,1200,750,2800
+36,male,31.2,mid,very high,hypertension,high,false,normal,normal,maintain weight,80,300,75,1200,1200,800,3300
+52,female,24.9,mid,high,hypertension,normal,false,normal,normal,gain muscle,90,300,80,1200,1200,800,3500
+19,male,20.4,mid,very high,normal,normal,false,abnormal,abnormal,gain endurance,80,300,70,1200,1300,800,3200
+64,male,26.3,mid,high,normal,high,true,normal,normal,lose weight,70,200,50,1200,1200,700,2000
+49,female,33.7,low,low,hypertension,high,true,normal,abnormal,maintain weight,70,250,60,1200,1200,750,2700
+59,male,28.5,mid,high,normal,normal,false,abnormal,abnormal,gain weight,80,300,70,1200,1200,800,3200
+22,female,18.7,mid,high,normal,normal,false,normal,normal,lose weight,70,200,50,1200,1200,700,2000
+55,male,29.6,mid,very high,hypertension,high,true,severely abnormal,abnormal,gain muscle,90,300,80,1200,1200,800,3500
+16,female,22.1,mid,low,normal,normal,false,normal,abnormal,gain endurance,80,300,70,1200,1300,800,3200
+38,male,27.9,mid,high,hypertension,high,false,normal,abnormal,maintain weight,80,300,75,1200,1200,800,3300
+67,female,31.5,mid,very high,normal,high,false,normal,normal,lose weight,70,200,50,1200,1200,700,2000
+17,female,19.8,mid,high,normal,normal,false,abnormal,normal,maintain weight,70,250,60,1200,1200,750,2700
+42,male,26.2,mid,high,hypertension,normal,false,normal,abnormal,gain muscle,90,300,80,1200,1200,800,3500
+25,female,23.6,mid,low,hypertension,normal,false,abnormal,normal,lose weight,70,200,50,1200,1200,700,2000
+44,male,28.4,mid,very high,normal,normal,false,severely abnormal,normal,gain weight,80,300,70,1200,1200,800,3200
+31,female,20.7,mid,high,normal,normal,false,normal,abnormal,gain endurance,80,300,70,1200,1300,800,3200
+60,male,33.2,low,low,normal,high,true,normal,abnormal,maintain weight,70,250,60,1200,1200,750,2700
+21,female,22.9,mid,low,normal,normal,false,normal,abnormal,lose weight,70,200,50,1200,1200,700,2000
+47,male,25.8,mid,very high,normal,normal,false,normal,normal,gain muscle,90,300,80,1200,1200,800,3500
+29,female,27.4,mid,high,hypertension,high,false,normal,abnormal,gain endurance,80,300,70,1200,1300,800,3200
+53,male,29.1,mid,high,normal,normal,false,severely abnormal,abnormal,gain weight,80,300,70,1200,1200,800,3200
+39,female,30.3,mid,very high,normal,normal,false,normal,abnormal,gain weight,80,300,70,1200,1200,800,3200
+28,male,24.3,mid,high,normal,normal,false,normal,normal,gain weight,80,300,70,1200,1200,800,3200
+48,female,31.9,low,low,hypotension,high,true,severely abnormal,normal,lose weight,70,200,50,1100,1100,700,2200
+33,female,20.1,mid,very high,normal,normal,false,normal,abnormal,maintain weight,70,250,60,1200,1300,750,2700
+62,male,33.5,low,very low,hypotension,high,true,abnormal,normal,lose weight,70,200,45,1200,1200,700,2000
+37,female,27.1,mid,high,hypertension,normal,false,abnormal,normal,gain muscle,90,300,80,1200,1200,800,3500
+23,male,22.7,mid,low,normal,normal,false,normal,abnormal,maintain weight,70,250,60,1200,1300,750,2700
+66,female,26.9,mid,low,normal,normal,false,normal,abnormal,gain endurance,80,250,65,1200,1200,750,2800
+40,male,30.7,mid,very high,hypertension,high,false,normal,normal,maintain weight,80,300,75,1200,1200,800,3300
+56,female,25.5,mid,high,hypertension,normal,false,normal,normal,gain muscle,90,300,80,1200,1200,800,3500
+18,male,20.8,mid,very high,normal,normal,false,abnormal,abnormal,gain endurance,80,300,70,1200,1300,800,3200
+65,male,27.3,mid,high,normal,high,true,normal,normal,lose weight,70,200,50,1200,1200,700,2000
+50,female,32.3,low,low,hypertension,high,true,normal,abnormal,maintain weight,70,250,60,1200,1200,750,2700
+63,male,28.8,mid,high,normal,normal,false,abnormal,abnormal,gain weight,80,300,70,1200,1200,800,3200
+24,female,19.4,mid,high,normal,normal,false,normal,normal,lose weight,70,200,50,1200,1200,700,2000
+54,male,30.6,mid,very high,hypertension,high,true,severely abnormal,abnormal,gain muscle,90,300,80,1200,1200,800,3500
+15,female,21.3,mid,low,normal,normal,false,abnormal,normal,gain endurance,80,300,70,1200,1300,800,3200
+34,male,28.1,mid,high,hypertension,high,false,normal,abnormal,maintain weight,80,300,75,1200,1200,800,3300
+69,female,32.1,mid,very high,normal,high,false,normal,normal,lose weight,70,200,50,1200,1200,700,2000
+19,female,20.6,mid,high,normal,normal,false,abnormal,normal,maintain weight,70,250,60,1200,1200,750,2700
+43,male,25.5,mid,high,hypertension,normal,false,normal,abnormal,gain muscle,90,300,80,1200,1200,800,3500
+26,female,23.7,mid,low,hypertension,normal,false,abnormal,normal,lose weight,70,200,50,1200,1200,700,2000
+45,male,29.4,mid,very high,normal,normal,false,severely abnormal,normal,gain weight,80,300,70,1200,1200,800,3200
+32,female,21.9,mid,high,normal,normal,false,normal,abnormal,gain endurance,80,300,70,1200,1300,800,3200
+61,male,34.2,low,low,normal,high,true,normal,abnormal,maintain weight,70,250,60,1200,1200,750,2700
+22,female,23.1,mid,low,normal,normal,false,normal,abnormal,lose weight,70,200,50,1200,1200,700,2000
+46,male,26.7,mid,very high,normal,normal,false,normal,normal,gain muscle,90,300,80,1200,1200,800,3500
+30,female,28.4,mid,high,hypertension,high,false,normal,abnormal,gain endurance,80,300,70,1200,1300,800,3200
+57,male,29.2,mid,high,normal,normal,false,severely abnormal,abnormal,gain weight,80,300,70,1200,1200,800,3200
+41,female,30.4,mid,very high,normal,normal,false,normal,abnormal,gain weight,80,300,70,1200,1200,800,3200
+29,male,26.1,mid,high,hypertension,normal,false,normal,abnormal,gain weight,80,300,70,1200,1200,800,3200
+31,female,27.8,mid,high,normal,normal,false,abnormal,normal,maintain weight,70,250,60,1200,1200,750,2700
+58,male,30.3,mid,high,hypertension,normal,false,normal,abnormal,lose weight,70,200,50,1200,1200,700,2000
+27,female,24.6,mid,high,normal,normal,false,abnormal,abnormal,gain muscle,90,300,80,1200,1200,800,3500
+35,male,28.3,mid,very high,normal,normal,false,severely abnormal,normal,gain endurance,80,300,70,1200,1300,800,3200
+43,female,28.7,mid,high,normal,high,true,abnormal,normal,lose weight,70,200,50,1200,1200,700,2000
+21,male,23.2,mid,low,normal,normal,false,normal,normal,maintain weight,70,250,60,1200,1300,750,2700
+52,male,32.8,low,low,hypotension,high,true,abnormal,normal,lose weight,70,200,45,1200,1200,700,2000
+35,female,20.2,mid,very high,normal,normal,false,normal,abnormal,maintain weight,70,250,60,1200,1300,750,2700
+67,male,29.9,mid,high,normal,normal,false,normal,abnormal,gain muscle,90,300,80,1200,1200,800,3500
+29,female,22.1,mid,low,normal,normal,false,abnormal,normal,lose weight,70,200,50,1200,1200,700,2000
+56,male,27.3,mid,very high,hypertension,high,true,severely abnormal,abnormal,gain endurance,80,250,65,1200,1200,750,2800
+38,female,30.5,mid,high,hypertension,normal,false,abnormal,normal,gain weight,80,300,70,1200,1200,800,3200
+49,male,25.9,mid,high,normal,high,false,normal,abnormal,gain muscle,90,300,80,1200,1200,800,3500
+24,female,21.4,mid,high,normal,normal,false,normal,normal,lose weight,70,200,50,1200,1200,700,2000
+44,male,29.5,mid,very high,normal,normal,false,severely abnormal,normal,gain weight,80,300,70,1200,1200,800,3200
+31,female,24.7,mid,low,hypertension,normal,false,abnormal,normal,gain muscle,90,300,80,1200,1200,800,3500
+58,male,31.2,low,low,normal,high,true,normal,abnormal,maintain weight,70,250,60,1200,1200,750,2700
+22,female,19.5,mid,high,normal,normal,false,abnormal,normal,gain endurance,80,300,70,1200,1300,800,3200
+37,male,27.1,mid,high,hypertension,high,false,normal,abnormal,gain weight,80,300,75,1200,1200,800,3300
+64,female,33.5,low,low,normal,normal,false,normal,abnormal,lose weight,70,200,50,1200,1200,700,2000
+47,male,26.8,mid,very high,normal,normal,false,normal,normal,gain muscle,90,300,80,1200,1200,800,3500
+26,female,23.9,mid,low,hypertension,normal,false,abnormal,normal,lose weight,70,200,50,1200,1200,700,2000
+51,male,31.7,mid,very high,normal,normal,false,severely abnormal,normal,gain endurance,80,300,70,1200,1300,800,3200
+33,female,20.9,mid,high,normal,normal,false,normal,abnormal,maintain weight,70,250,60,1200,1200,750,2700
+68,male,28.4,mid,high,normal,high,true,normal,normal,lose weight,70,200,50,1200,1200,700,2000
+23,female,22.3,mid,low,normal,normal,false,normal,abnormal,gain muscle,90,300,80,1200,1200,800,3500
+59,male,30.8,mid,high,hypertension,normal,false,normal,abnormal,gain weight,80,300,70,1200,1200,800,3200
+32,female,21.7,mid,low,normal,normal,false,abnormal,normal,lose weight,70,200,50,1200,1200,700,2000
+57,male,29.3,mid,very high,normal,normal,false,severely abnormal,abnormal,gain muscle,90,300,80,1200,1200,800,3500
+41,female,30.3,mid,high,normal,normal,false,normal,abnormal,gain weight,80,300,70,1200,1200,800,3200
+27,male,26.2,mid,high,hypertension,normal,false,normal,abnormal,gain weight,80,300,70,1200,1200,800,3200
+53,female,31.8,mid,high,normal,normal,false,abnormal,abnormal,maintain weight,70,250,60,1200,1200,750,2700
+48,male,25.7,mid,high,normal,high,true,abnormal,abnormal,lose weight,70,200,45,1200,1200,700,2000
+25,female,20.8,mid,high,normal,normal,false,abnormal,normal,lose weight,70,200,50,1200,1200,700,2000
+50,male,28.1,mid,very high,hypertension,high,true,normal,normal,gain muscle,90,300,80,1200,1200,800,3500
+42,female,23.4,mid,low,hypertension,normal,false,normal,abnormal,maintain weight,70,250,60,1200,1200,750,2700
+69,male,32.9,low,low,normal,high,true,normal,abnormal,lose weight,70,200,50,1200,1200,700,2000
+30,female,23.1,mid,low,normal,normal,false,normal,abnormal,gain muscle,90,300,80,1200,1200,800,3500
+36,male,27.3,mid,very high,hypertension,high,false,severely abnormal,normal,gain endurance,80,300,70,1200,1300,800,3200
+54,female,32.4,mid,high,hypertension,normal,false,abnormal,abnormal,gain weight,80,300,70,1200,1200,800,3200
+45,male,30.1,mid,high,normal,normal,false,normal,normal,gain muscle,90,300,80,1200,1200,800,3500
+34,female,21.2,mid,high,normal,normal,false,abnormal,normal,lose weight,70,200,50,1200,1200,700,2000
+61,male,34.3,low,low,normal,high,true,normal,abnormal,maintain weight,70,250,60,1200,1200,750,2700
+28,female,19.3,mid,high,normal,normal,false,abnormal,normal,gain endurance,80,300,70,1200,1300,800,3200
+58,male,30.2,mid,high,hypertension,normal,false,normal,abnormal,lose weight,70,200,50,1200,1200,700,2000
+22,female,22.4,mid,low,normal,normal,false,normal,normal,lose weight,70,200,50,1200,1200,700,2000
+46,male,27.9,mid,very high,normal,normal,false,severely abnormal,normal,gain weight,80,300,70,1200,1200,800,3200
+25,female,20.7,mid,high,normal,normal,false,normal,normal,lose weight,70,200,50,1200,1200,700,2000
+51,male,31.3,mid,very high,normal,normal,false,severely abnormal,normal,gain endurance,80,300,70,1200,1300,800,3200
+33,female,21.8,mid,high,normal,normal,false,normal,abnormal,maintain weight,70,250,60,1200,1200,750,2700
+67,male,28.5,mid,high,normal,high,true,normal,abnormal,lose weight,70,200,50,1200,1200,700,2000
+24,female,21.5,mid,high,normal,normal,false,normal,abnormal,gain muscle,90,300,80,1200,1200,800,3500
+41,male,25.6,mid,high,hypertension,normal,false,normal,abnormal,gain weight,80,300,70,1200,1200,800,3200
+29,female,22.6,mid,low,normal,normal,false,abnormal,normal,lose weight,70,200,50,1200,1200,700,2000
+55,male,29.4,mid,very high,normal,normal,false,severely abnormal,abnormal,gain muscle,90,300,80,1200,1200,800,3500
+39,female,30.7,mid,high,normal,normal,false,normal,abnormal,gain weight,80,300,70,1200,1200,800,3200
+26,male,26.3,mid,high,hypertension,normal,false,normal,abnormal,gain weight,80,300,70,1200,1200,800,3200
+52,female,31.8,mid,high,normal,normal,false,abnormal,abnormal,maintain weight,70,250,60,1200,1200,750,2700
+48,male,25.9,mid,high,normal,high,true,abnormal,abnormal,lose weight,70,200,45,1200,1200,700,2000
+29,male,26.5,low,high,normal,normal,false,normal,normal,lose weight,75,250,50,1200,1200,800,2500
+42,female,31.2,high,high,hypertension,high,false,normal,abnormal,gain weight,100,300,70,1100,1300,750,3200
+54,female,19.8,high,low,hypertension,high,true,severely abnormal,normal,maintain weight,65,250,60,1200,1250,800,2700
+68,male,28.7,mid,very low,normal,normal,true,normal,abnormal,lose weight,80,220,40,1150,1200,700,2300
+35,female,23.6,mid,high,normal,normal,false,normal,normal,gain muscle,90,280,55,1250,1150,850,3000
+47,female,38.2,low,very low,hypertension,severely high,false,normal,normal,maintain weight,70,220,45,1200,1100,700,2500
+25,male,22.1,high,very high,normal,normal,false,normal,normal,gain endurance,85,320,65,1300,1200,900,3500
+59,male,29.8,low,high,hypertension,severely high,false,normal,normal,maintain weight,75,250,50,1200,1250,750,2600
+40,female,27.9,mid,low,normal,high,false,abnormal,severely abnormal,gain muscle,95,290,60,1150,1150,750,3100
+20,male,20.5,mid,very high,normal,normal,false,abnormal,severely abnormal,gain muscle,105,310,70,1300,1200,900,3300
+70,female,34.6,low,low,hypertension,high,false,normal,abnormal,lose weight,80,230,40,1100,1200,750,2400
+48,female,25.3,high,very high,normal,normal,false,normal,normal,gain muscle,90,280,55,1250,1150,850,3000
+36,male,29.4,mid,low,normal,normal,false,normal,abnormal,gain endurance,85,320,65,1300,1200,900,3500
+16,male,21.7,mid,high,normal,normal,false,normal,normal,lose weight,70,250,50,1200,1200,800,2500
+67,female,33.1,low,low,hypotension,normal,false,normal,normal,gain endurance,80,230,40,1100,1200,750,2400
+50,male,24.9,mid,high,normal,normal,false,normal,abnormal,gain weight,100,300,70,1100,1300,750,3200
+58,female,28.3,mid,low,hypertension,high,false,normal,normal,gain weight,95,290,60,1150,1150,750,3100
+45,male,32.7,low,very low,hypertension,high,false,abnormal,severely abnormal,gain weight,100,300,70,1100,1300,750,3200
+19,female,19.1,high,very high,normal,normal,false,normal,abnormal,lose weight,75,250,50,1200,1200,800,2500
+61,female,36.8,low,low,hypertension,severely high,true,severely abnormal,severely abnormal,gain weight,105,310,70,1300,1200,900,3300
+38,male,25.6,mid,high,normal,normal,false,abnormal,severely abnormal,gain muscle,90,280,55,1250,1150,850,3000
+55,male,28.9,mid,very low,hypertension,high,true,normal,normal,maintain weight,70,220,45,1200,1100,700,2500
+29,female,26.2,low,high,normal,normal,false,normal,normal,gain muscle,90,280,55,1250,1150,850,3000
+22,female,21.5,high,very high,normal,normal,false,normal,normal,gain endurance,85,320,65,1300,1200,900,3500
+44,male,30.4,mid,low,hypertension,severely high,false,normal,abnormal,lose weight,80,230,40,1100,1200,750,2400
+52,male,27.3,low,high,normal,normal,false,normal,abnormal,gain endurance,85,320,65,1300,1200,900,3500
+23,female,22.8,high,very high,normal,normal,false,abnormal,severely abnormal,lose weight,75,250,50,1200,1200,800,2500
+62,female,32.5,low,low,hypertension,high,false,normal,normal,gain weight,95,290,60,1150,1150,750,3100
+32,male,25.9,mid,high,normal,normal,false,abnormal,severely abnormal,gain weight,100,300,70,1100,1300,750,3200
+39,male,29.8,mid,low,normal,normal,false,normal,abnormal,gain muscle,90,280,55,1250,1150,850,3000
+49,female,26.7,mid,high,hypertension,high,false,normal,normal,gain muscle,90,280,55,1250,1150,850,3000
+24,female,20.3,high,very high,normal,normal,false,normal,abnormal,lose weight,75,250,50,1200,1200,800,2500
+56,male,30.1,low,very low,hypertension,severely high,false,normal,abnormal,lose weight,80,230,40,1100,1200,750,2400
+30,female,26.8,low,high,normal,normal,false,normal,normal,gain muscle,90,280,55,1250,1150,850,3000
+63,female,33.8,low,low,hypertension,high,true,severely abnormal,severely abnormal,gain endurance,105,310,70,1300,1200,900,3300
+37,male,25.3,mid,high,normal,normal,false,normal,abnormal,gain muscle,90,280,55,1250,1150,850,3000
+18,female,19.9,high,very high,normal,normal,false,abnormal,severely abnormal,gain muscle,95,290,60,1150,1150,750,3100
+65,female,36.4,low,low,hypertension,severely high,true,normal,normal,gain weight,95,290,60,1150,1150,750,3100
+41,male,26.5,low,very low,normal,normal,false,normal,abnormal,lose weight,80,230,40,1100,1200,750,2400
+28,female,27.2,low,high,normal,normal,false,normal,normal,gain muscle,90,280,55,1250,1150,850,3000
+57,male,31.7,low,low,hypertension,high,false,normal,abnormal,lose weight,85,320,65,1300,1200,900,3500
+26,female,23.1,high,very high,normal,normal,false,abnormal,severely abnormal,lose weight,75,250,50,1200,1200,800,2500
+31,male,24.2,mid,high,normal,normal,false,normal,normal,gain muscle,90,280,55,1250,1150,850,3000
+64,female,35.5,low,low,hypotension,severely high,false,normal,abnormal,lose weight,80,230,40,1100,1200,750,2400
+43,male,28.1,low,very low,hypertension,high,false,abnormal,severely abnormal,gain weight,100,300,70,1100,1300,750,3200
+33,female,25.4,low,high,normal,normal,false,normal,abnormal,gain endurance,85,320,65,1300,1200,900,3500
+51,male,27.9,mid,high,normal,normal,false,abnormal,severely abnormal,gain weight,100,300,70,1100,1300,750,3200
+46,female,30.9,low,very low,hypertension,high,false,normal,normal,maintain weight,70,220,45,1200,1100,700,2500
+27,male,23.7,high,very high,normal,normal,false,abnormal,severely abnormal,lose weight,75,250,50,1200,1200,800,2500
+53,female,28.6,mid,low,hypertension,high,false,normal,abnormal,gain weight,95,290,60,1150,1150,750,3100
+21,male,20.9,mid,very high,normal,normal,false,normal,abnormal,lose weight,75,250,50,1200,1200,800,2500
+34,male,26.8,mid,high,normal,normal,false,normal,normal,gain endurance,85,320,65,1300,1200,900,3500
+60,female,36.1,low,low,hypertension,severely high,true,normal,abnormal,gain endurance,105,310,70,1300,1200,900,3300
+66,female,35.2,low,low,hypotension,severely high,false,normal,abnormal,lose weight,80,230,40,1100,1200,750,2400
+34,female,22.5,mid,high,normal,normal,false,normal,normal,maintain weight,75,250,55,1200,1200,800,2600
+49,male,29.8,low,very low,hypertension,normal,false,normal,abnormal,lose weight,70,220,45,1100,1200,750,2300
+41,female,26.3,mid,high,normal,normal,false,normal,normal,lose weight,80,230,50,1200,1200,800,2400
+27,male,25.1,high,very high,normal,normal,false,normal,normal,gain muscle,90,280,60,1250,1150,850,3000
+57,female,31.7,low,low,hypertension,high,true,normal,normal,lose weight,75,230,45,1100,1200,750,2400
+45,female,27.9,mid,low,hypertension,high,false,normal,normal,lose weight,80,230,50,1100,1200,750,2400
+53,male,29.5,low,very low,hypertension,high,false,normal,abnormal,maintain weight,70,220,45,1200,1100,700,2500
+38,male,24.6,high,high,normal,normal,false,normal,normal,gain endurance,85,320,65,1300,1200,900,3400
+22,female,21.3,mid,high,normal,normal,false,normal,normal,lose weight,75,250,50,1200,1200,800,2500
+48,female,28.7,mid,low,hypertension,high,false,normal,abnormal,gain weight,90,280,55,1250,1150,850,3000
+30,male,26.9,low,very low,normal,normal,false,abnormal,severely abnormal,gain muscle,95,290,60,1250,1150,850,3100
+36,male,31.2,low,low,hypertension,high,true,abnormal,severely abnormal,gain weight,100,300,70,1100,1300,750,3200
+43,female,25.8,mid,high,normal,normal,false,normal,normal,gain endurance,85,320,65,1300,1200,900,3400
+59,female,34.2,low,low,hypertension,severely high,false,normal,normal,lose weight,80,230,45,1100,1200,750,2400
+25,male,23.8,mid,high,normal,normal,false,normal,normal,lose weight,75,250,50,1200,1200,800,2500
+51,male,29.1,low,very low,hypertension,high,false,abnormal,severely abnormal,lose weight,80,230,40,1100,1200,750,2400
+32,female,22.2,mid,high,normal,normal,false,normal,normal,gain muscle,90,280,55,1250,1150,850,3000
+28,male,24.5,high,high,normal,normal,false,normal,normal,gain muscle,90,280,55,1250,1150,850,3000
+56,male,28.6,mid,low,hypertension,high,false,normal,abnormal,gain weight,95,290,60,1250,1150,850,3100
+42,female,26.9,mid,high,normal,normal,false,abnormal,severely abnormal,gain weight,100,300,70,1100,1300,750,3200
+31,male,25.7,high,very high,normal,normal,false,abnormal,severely abnormal,lose weight,75,250,50,1200,1200,800,2500
+39,female,28.3,mid,low,hypertension,high,false,normal,normal,lose weight,80,230,45,1100,1200,750,2400
+47,male,30.2,low,low,hypertension,high,true,normal,normal,gain muscle,90,280,55,1250,1150,850,3000
+54,male,32.8,low,low,hypertension,severely high,true,normal,abnormal,gain weight,100,300,70,1100,1300,750,3200
+29,female,23.6,mid,high,normal,normal,false,normal,abnormal,lose weight,80,230,50,1100,1200,750,2400
+33,male,27.1,mid,high,normal,normal,false,normal,normal,gain endurance,85,320,65,1300,1200,900,3400
+40,female,29.5,low,very low,hypertension,high,false,abnormal,severely abnormal,gain muscle,95,290,60,1250,1150,850,3100
+35,male,25.8,high,high,normal,normal,false,normal,normal,gain muscle,90,280,55,1250,1150,850,3000
+50,female,26.5,mid,high,normal,normal,false,normal,normal,gain muscle,90,280,55,1250,1150,850,3000
+44,male,29.7,low,low,hypertension,high,true,normal,normal,gain weight,100,300,70,1100,1300,750,3200
+37,female,27.4,mid,low,hypertension,high,false,normal,normal,lose weight,80,230,45,1100,1200,750,2400
+52,male,28.3,mid,low,hypertension,high,false,normal,abnormal,gain weight,95,290,60,1250,1150,850,3100
+24,male,22.8,high,very high,normal,normal,false,normal,normal,gain muscle,90,280,55,1250,1150,850,3000
+46,female,30.6,low,low,hypertension,high,true,abnormal,severely abnormal,gain weight,100,300,70,1100,1300,750,3200
+55,female,32.9,low,low,hypertension,severely high,false,normal,abnormal,gain weight,100,300,70,1100,1300,750,3200
+26,male,24.2,high,very high,normal,normal,false,normal,normal,gain muscle,90,280,55,1250,1150,850,3000
+58,female,33.6,low,low,hypertension,severely high,true,abnormal,severely abnormal,gain weight,100,300,70,1100,1300,750,3200
+60,male,30.4,low,low,hypertension,high,false,normal,normal,lose weight,80,230,45,1100,1200,750,2400
+23,female,21.9,mid,high,normal,normal,false,normal,normal,lose weight,75,250,50,1200,1200,800,2500
+61,female,34.8,low,low,hypertension,severely high,false,normal,abnormal,lose weight,80,230,40,1100,1200,750,2400
+62,male,31.8,low,low,hypertension,severely high,true,abnormal,severely abnormal,gain weight,100,300,70,1100,1300,750,3200
+20,female,19.6,high,very high,normal,normal,false,normal,normal,lose weight,75,250,50,1200,1200,800,2500
+63,male,32.2,low,low,hypertension,severely high,true,abnormal,severely abnormal,gain weight,100,300,70,1100,1300,750,3200
+64,female,35.1,low,low,hypertension,severely high,true,normal,normal,gain weight,100,300,70,1100,1300,750,3200
+21,male,20.7,mid,high,normal,normal,false,normal,normal,gain muscle,90,280,55,1250,1150,850,3000
+65,female,35.7,low,low,hypertension,severely high,true,abnormal,severely abnormal,gain weight,100,300,70,1100,1300,750,3200
+66,male,32.7,low,low,hypertension,severely high,true,abnormal,severely abnormal,gain weight,100,300,70,1100,1300,750,3200
+67,female,36.3,low,low,hypertension,severely high,true,normal,abnormal,gain weight,100,300,70,1100,1300,750,3200
+68,male,33.2,low,low,hypertension,severely high,true,abnormal,severely abnormal,gain weight,100,300,70,1100,1300,750,3200
+69,female,36.8,low,low,hypertension,severely high,true,normal,abnormal,gain weight,100,300,70,1100,1300,750,3200
+70,male,33.7,low,low,hypertension,severely high,true,normal,severely abnormal,gain weight,100,300,70,1100,1300,750,3200
+"25","male","22.5","mid","mid","normal","normal","false","normal","normal","gain muscle","170","250","40","1200","1200","800","2500"
+"40","female","28.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","120","200","30","1100","1100","700","1800"
+"18","male","20.5","high","high","normal","normal","false","normal","normal","gain endurance","150","220","35","1250","1250","850","2800"
+"50","female","32.5","very low","very low","hypertension","severely high","true","severely abnormal","abnormal","lose weight","100","180","25","1150","1150","750","1600"
+"35","male","25.5","mid","mid","normal","normal","false","normal","normal","maintain weight","140","230","40","1200","1200","800","2200"
+"28","female","24.5","high","high","normal","normal","false","normal","normal","gain weight","130","210","35","1250","1250","850","2400"
+"60","male","30.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","110","190","30","1150","1150","750","1900"
+"22","female","21.5","mid","mid","normal","normal","false","normal","normal","gain endurance","160","240","40","1250","1250","850","2600"
+"45","male","29.5","mid","mid","normal","normal","false","normal","normal","maintain weight","150","230","40","1200","1200","800","2300"
+"38","female","26.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","120","200","30","1150","1150","750","1800"
+"19","male","23.5","high","high","normal","normal","false","normal","normal","gain muscle","180","260","45","1250","1250","850","2800"
+"55","female","31.5","very low","very low","hypertension","severely high","true","severely abnormal","abnormal","lose weight","100","180","25","1150","1150","750","1600"
+"42","male","27.5","mid","mid","normal","normal","false","normal","normal","maintain weight","140","220","40","1200","1200","800","2200"
+"30","female","25.5","high","high","normal","normal","false","normal","normal","gain endurance","160","240","40","1250","1250","850","2600"
+"65","male","33.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","110","190","30","1150","1150","750","1900"
+"20","female","22.5","mid","mid","normal","normal","false","normal","normal","gain weight","130","210","35","1250","1250","850","2400"
+"48","male","29.5","mid","mid","normal","normal","false","normal","normal","maintain weight","150","230","40","1200","1200","800","2300"
+"58","female","30.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","120","200","30","1150","1150","750","1800"
+"17","male","19.5","high","high","normal","normal","false","normal","normal","gain endurance","165","240","40","1250","1250","850","2700"
+"62","female","34.5","very low","very low","hypertension","severely high","true","severely abnormal","abnormal","lose weight","105","185","25","1150","1150","750","1700"
+"29","male","26.5","mid","mid","normal","normal","false","normal","normal","maintain weight","145","225","40","1200","1200","800","2300"
+"51","female","29.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","125","205","30","1150","1150","750","1900"
+"24","male","21.5","high","high","normal","normal","false","normal","normal","gain muscle","175","250","45","1250","1250","850","2800"
+"39","female","27.5","mid","mid","normal","normal","false","normal","normal","gain endurance","155","235","40","1250","1250","850","2500"
+"67","male","35.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","115","195","30","1150","1150","750","1800"
+"16","female","20.5","mid","mid","normal","normal","false","normal","normal","gain weight","135","215","35","1250","1250","850","2400"
+"43","male","28.5","mid","mid","normal","normal","false","normal","normal","maintain weight","150","230","40","1200","1200","800","2300"
+"59","female","31.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","120","200","30","1150","1150","750","1900"
+"26","male","24.5","high","high","normal","normal","false","normal","normal","gain endurance","170","250","45","1250","1250","850","2800"
+"53","female","30.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","125","205","30","1150","1150","750","1900"
+"19","male","22.5","mid","mid","normal","normal","false","normal","normal","gain muscle","160","240","40","1250","1250","850","2600"
+"64","female","33.5","very low","very low","hypertension","severely high","true","severely abnormal","abnormal","lose weight","100","180","25","1150","1150","750","1600"
+"31","male","27.5","mid","mid","normal","normal","false","normal","normal","maintain weight","145","225","40","1200","1200","800","2300"
+"46","female","29.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","120","200","30","1150","1150","750","1900"
+"23","male","23.5","high","high","normal","normal","false","normal","normal","gain endurance","165","240","40","1250","1250","850","2700"
+"57","female","31.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","125","205","30","1150","1150","750","1900"
+"36","male","28.5","mid","mid","normal","normal","false","normal","normal","maintain weight","150","230","40","1200","1200","800","2300"
+"61","female","32.5","very low","very low","hypertension","severely high","true","severely abnormal","abnormal","lose weight","105","185","25","1150","1150","750","1700"
+"27","male","25.5","high","high","normal","normal","false","normal","normal","gain muscle","180","260","45","1250","1250","850","2800"
+"49","female","30.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","120","200","30","1150","1150","750","1900"
+"20","male","22.5","mid","mid","normal","normal","false","normal","normal","gain weight","135","215","35","1250","1250","850","2400"
+"63","female","33.5","very low","very low","hypertension","severely high","true","severely abnormal","abnormal","lose weight","100","180","25","1150","1150","750","1600"
+"34","male","28.5","mid","mid","normal","normal","false","normal","normal","maintain weight","145","225","40","1200","1200","800","2300"
+"55","female","30.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","125","205","30","1150","1150","750","1900"
+"25","male","24.5","high","high","normal","normal","false","normal","normal","gain endurance","170","250","45","1250","1250","850","2800"
+"58","female","31.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","120","200","30","1150","1150","750","1900"
+"21","male","23.5","mid","mid","normal","normal","false","normal","normal","gain muscle","160","240","40","1250","1250","850","2600"
+"66","female","34.5","very low","very low","hypertension","severely high","true","severely abnormal","abnormal","lose weight","105","185","25","1150","1150","750","1700"
+"32","male","27.5","mid","mid","normal","normal","false","normal","normal","maintain weight","150","230","40","1200","1200","800","2300"
+"52","female","30.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","125","205","30","1150","1150","750","1900"
+"18","male","21.5","high","high","normal","normal","false","normal","normal","gain endurance","165","240","40","1250","1250","850","2700"
+"60","female","32.5","very low","very low","hypertension","severely high","true","severely abnormal","abnormal","lose weight","100","180","25","1150","1150","750","1600"
+"44","male","29.5","mid","mid","normal","normal","false","normal","normal","maintain weight","155","235","40","1200","1200","800","2400"
+"37","female","26.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","125","205","30","1150","1150","750","1900"
+"29","male","25.5","high","high","normal","normal","false","normal","normal","gain endurance","170","250","45","1250","1250","850","2800"
+"54","female","31.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","120","200","30","1150","1150","750","1900"
+"22","male","23.5","mid","mid","normal","normal","false","normal","normal","gain muscle","160","240","40","1250","1250","850","2600"
+"48","female","30.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","125","205","30","1150","1150","750","1900"
+"35","male","28.5","mid","mid","normal","normal","false","normal","normal","maintain weight","150","230","40","1200","1200","800","2300"
+"41","female","27.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","120","200","30","1150","1150","750","1900"
+"26","male","24.5","high","high","normal","normal","false","normal","normal","gain endurance","165","240","40","1250","1250","850","2700"
+"56","female","32.5","very low","very low","hypertension","severely high","true","severely abnormal","abnormal","lose weight","100","180","25","1150","1150","750","1600"
+"33","male","27.5","mid","mid","normal","normal","false","normal","normal","maintain weight","145","225","40","1200","1200","800","2300"
+"45","female","29.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","125","205","30","1150","1150","750","1900"
+"28","male","25.5","high","high","normal","normal","false","normal","normal","gain muscle","180","260","45","1250","1250","850","2800"
+"51","female","30.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","125","205","30","1150","1150","750","1900"
+"24","male","23.5","mid","mid","normal","normal","false","normal","normal","gain endurance","160","240","40","1250","1250","850","2600"
+"62","female","33.5","very low","very low","hypertension","severely high","true","severely abnormal","abnormal","lose weight","100","180","25","1150","1150","750","1600"
+"30","male","26.5","mid","mid","normal","normal","false","normal","normal","maintain weight","150","230","40","1200","1200","800","2300"
+"47","female","30.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","120","200","30","1150","1150","750","1900"
+"58","female","31.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","125","205","30","1150","1150","750","1900"
+"21","male","22.5","mid","mid","normal","normal","false","normal","normal","gain muscle","160","240","40","1250","1250","850","2600"
+"65","female","34.5","very low","very low","hypertension","severely high","true","severely abnormal","abnormal","lose weight","105","185","25","1150","1150","750","1700"
+"32","male","27.5","mid","mid","normal","normal","false","normal","normal","maintain weight","145","225","40","1200","1200","800","2300"
+"50","female","30.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","125","205","30","1150","1150","750","1900"
+"19","male","21.5","high","high","normal","normal","false","normal","normal","gain endurance","165","240","40","1250","1250","850","2700"
+"61","female","32.5","very low","very low","hypertension","severely high","true","severely abnormal","abnormal","lose weight","100","180","25","1150","1150","750","1600"
+"53","female","30.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","120","200","30","1150","1150","750","1900"
+"49","female","30.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","125","205","30","1150","1150","750","1900"
+"23","male","23.5","mid","mid","normal","normal","false","normal","normal","gain endurance","160","240","40","1250","1250","850","2600"
+"63","female","33.5","very low","very low","hypertension","severely high","true","severely abnormal","abnormal","lose weight","105","185","25","1150","1150","750","1700"
+"46","male","30.5","mid","mid","normal","normal","false","normal","normal","maintain weight","155","235","40","1200","1200","800","2400"
+"39","female","27.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","125","205","30","1150","1150","750","1900"
+"31","male","26.5","high","high","normal","normal","false","normal","normal","gain endurance","170","250","45","1250","1250","850","2800"
+"57","female","32.5","very low","very low","hypertension","severely high","true","severely abnormal","abnormal","lose weight","100","180","25","1150","1150","750","1600"
+"24","male","23.5","mid","mid","normal","normal","false","normal","normal","gain muscle","160","240","40","1250","1250","850","2600"
+"43","female","28.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","120","200","30","1150","1150","750","1900"
+"29","male","25.5","high","high","normal","normal","false","normal","normal","gain endurance","165","240","40","1250","1250","850","2700"
+"59","female","31.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","125","205","30","1150","1150","750","1900"
+"22","male","22.5","mid","mid","normal","normal","false","normal","normal","gain weight","135","215","35","1250","1250","850","2400"
+"62","female","33.5","very low","very low","hypertension","severely high","true","severely abnormal","abnormal","lose weight","105","185","25","1150","1150","750","1700"
+"26","male","24.5","high","high","normal","normal","false","normal","normal","gain muscle","180","260","45","1250","1250","850","2800"
+"51","female","30.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","120","200","30","1150","1150","750","1900"
+"25","male","23.5","mid","mid","normal","normal","false","normal","normal","gain endurance","160","240","40","1250","1250","850","2600"
+"64","female","34.5","very low","very low","hypertension","severely high","true","severely abnormal","abnormal","lose weight","100","180","25","1150","1150","750","1600"
+"47","female","30.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","125","205","30","1150","1150","750","1900"
+"28","male","25.5","high","high","normal","normal","false","normal","normal","gain endurance","170","250","45","1250","1250","850","2800"
+"50","female","30.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","120","200","30","1150","1150","750","1900"
+"25","female","22.5","mid","mid","normal","normal","false","normal","normal","gain weight","130","210","35","1250","1250","850","2400"
+"36","female","26.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","120","200","30","1150","1150","750","1800"
+"20","male","24.5","high","high","normal","normal","false","normal","normal","gain muscle","180","260","45","1250","1250","850","2800"
+"58","female","32.5","very low","very low","hypertension","severely high","true","severely abnormal","abnormal","lose weight","100","180","25","1150","1150","750","1600"
+"44","male","28.5","mid","mid","normal","normal","false","normal","normal","maintain weight","140","220","40","1200","1200","800","2200"
+"32","female","25.5","high","high","normal","normal","false","normal","normal","gain endurance","160","240","40","1250","1250","850","2600"
+"68","male","34.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","110","190","30","1150","1150","750","1900"
+"27","female","23.5","mid","mid","normal","normal","false","normal","normal","gain weight","130","210","35","1250","1250","850","2400"
+"51","male","30.5","mid","mid","normal","normal","false","normal","normal","maintain weight","150","230","40","1200","1200","800","2300"
+"39","female","27.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","120","200","30","1150","1150","750","1800"
+"24","male","22.5","high","high","normal","normal","false","normal","normal","gain muscle","180","260","45","1250","1250","850","2800"
+"46","female","29.5","mid","mid","normal","normal","false","normal","normal","maintain weight","135","220","40","1200","1200","800","2300"
+"29","male","26.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","115","200","30","1150","1150","750","1900"
+"53","female","31.5","very low","very low","hypertension","severely high","true","severely abnormal","abnormal","lose weight","105","180","25","1150","1150","750","1600"
+"21","male","23.5","high","high","normal","normal","false","normal","normal","gain muscle","185","260","45","1250","1250","850","2800"
+"38","female","27.5","mid","mid","normal","normal","false","normal","normal","gain weight","140","230","40","1250","1250","850","2500"
+"64","male","32.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","110","190","30","1150","1150","750","1900"
+"25","female","22.5","mid","mid","normal","normal","false","normal","normal","gain endurance","160","240","40","1250","1250","850","2600"
+"49","male","30.5","mid","mid","normal","normal","false","normal","normal","maintain weight","145","230","40","1200","1200","800","2300"
+"19","male","24.5","high","high","normal","normal","false","normal","normal","gain muscle","180","260","45","1250","1250","850","2800"
+"43","male","28.5","mid","mid","normal","normal","false","normal","normal","maintain weight","140","220","40","1200","1200","800","2200"
+"31","female","25.5","high","high","normal","normal","false","normal","normal","gain endurance","165","240","40","1250","1250","850","2600"
+"67","male","34.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","110","190","30","1150","1150","750","1900"
+"26","female","23.5","mid","mid","normal","normal","false","normal","normal","gain weight","135","220","40","1250","1250","850","2400"
+"52","male","31.5","mid","mid","normal","normal","false","normal","normal","maintain weight","150","230","40","1200","1200","800","2300"
+"23","male","22.5","high","high","normal","normal","false","normal","normal","gain muscle","185","260","45","1250","1250","850","2800"
+"61","female","33.5","very low","very low","hypertension","severely high","true","severely abnormal","abnormal","lose weight","100","180","25","1150","1150","750","1600"
+"45","male","29.5","mid","mid","normal","normal","false","normal","normal","maintain weight","145","230","40","1200","1200","800","2300"
+"34","female","26.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","120","200","30","1150","1150","750","1800"
+"20","male","24.5","high","high","normal","normal","false","normal","normal","gain endurance","165","240","40","1250","1250","850","2600"
+"59","female","32.5","very low","very low","hypertension","severely high","true","severely abnormal","abnormal","lose weight","100","180","25","1150","1150","750","1600"
+"41","male","28.5","mid","mid","normal","normal","false","normal","normal","maintain weight","140","220","40","1200","1200","800","2200"
+"33","female","25.5","high","high","normal","normal","false","normal","normal","gain weight","135","220","40","1250","1250","850","2400"
+"66","male","34.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","110","190","30","1150","1150","750","1900"
+"27","female","23.5","mid","mid","normal","normal","false","normal","normal","gain endurance","160","240","40","1250","1250","850","2600"
+"50","male","30.5","mid","mid","normal","normal","false","normal","normal","maintain weight","150","230","40","1200","1200","800","2300"
+"37","female","27.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","120","200","30","1150","1150","750","1800"
+"24","male","22.5","high","high","normal","normal","false","normal","normal","gain muscle","185","260","45","1250","1250","850","2800"
+"48","male","30.5","mid","mid","normal","normal","false","normal","normal","maintain weight","145","230","40","1200","1200","800","2300"
+"35","female","26.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","120","200","30","1150","1150","750","1800"
+"22","male","24.5","high","high","normal","normal","false","normal","normal","gain endurance","165","240","40","1250","1250","850","2600"
+"16","male","20.5","high","high","normal","normal","false","normal","normal","gain endurance","170","250","45","1250","1250","850","2800"
+"47","female","30.5","mid","mid","normal","normal","false","normal","normal","maintain weight","130","210","40","1200","1200","800","2200"
+"30","male","27.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","110","190","30","1150","1150","750","1900"
+"54","female","32.5","very low","very low","hypertension","severely high","true","severely abnormal","abnormal","lose weight","100","180","25","1150","1150","750","1600"
+"21","male","24.5","high","high","normal","normal","false","normal","normal","gain muscle","190","270","50","1250","1250","850","3000"
+"39","female","28.5","mid","mid","normal","normal","false","normal","normal","gain weight","140","230","40","1250","1250","850","2500"
+"26","female","23.5","mid","mid","normal","normal","false","normal","normal","gain endurance","165","240","40","1250","1250","850","2600"
+"51","male","31.5","mid","mid","normal","normal","false","normal","normal","maintain weight","145","230","40","1200","1200","800","2300"
+"20","male","24.5","high","high","normal","normal","false","normal","normal","gain muscle","185","260","45","1250","1250","850","2800"
+"44","male","29.5","mid","mid","normal","normal","false","normal","normal","maintain weight","140","220","40","1200","1200","800","2200"
+"33","female","26.5","high","high","normal","normal","false","normal","normal","gain endurance","170","250","45","1250","1250","850","2800"
+"28","female","24.5","mid","mid","normal","normal","false","normal","normal","gain weight","135","220","40","1250","1250","850","2400"
+"53","male","32.5","mid","mid","normal","normal","false","normal","normal","maintain weight","150","230","40","1200","1200","800","2300"
+"40","female","29.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","120","200","30","1150","1150","750","1800"
+"25","male","22.5","high","high","normal","normal","false","normal","normal","gain muscle","190","270","50","1250","1250","850","3000"
+"46","male","30.5","mid","mid","normal","normal","false","normal","normal","maintain weight","145","230","40","1200","1200","800","2300"
+"36","female","27.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","120","200","30","1150","1150","750","1800"
+"23","male","22.5","high","high","normal","normal","false","normal","normal","gain endurance","170","250","45","1250","1250","850","2800"
+"49","male","31.5","mid","mid","normal","normal","false","normal","normal","maintain weight","140","220","40","1200","1200","800","2200"
+"35","female","27.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","120","200","30","1150","1150","750","1800"
+"22","male","24.5","high","high","normal","normal","false","normal","normal","gain muscle","185","260","45","1250","1250","850","2800"
+"17","male","21.5","high","high","normal","normal","false","normal","normal","gain endurance","175","260","50","1250","1250","850","2900"
+"48","female","31.5","mid","mid","normal","normal","false","normal","normal","maintain weight","135","220","40","1200","1200","800","2300"
+"31","male","28.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","115","200","35","1150","1150","750","1900"
+"55","female","33.5","very low","very low","hypertension","severely high","true","severely abnormal","abnormal","lose weight","105","190","30","1150","1150","750","1600"
+"24","male","23.5","high","high","normal","normal","false","normal","normal","gain muscle","195","280","55","1250","1250","850","3100"
+"40","female","29.5","mid","mid","normal","normal","false","normal","normal","gain weight","145","240","45","1250","1250","850","2600"
+"66","male","34.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","115","200","35","1150","1150","750","1900"
+"29","female","25.5","mid","mid","normal","normal","false","normal","normal","gain endurance","170","250","45","1250","1250","850","2800"
+"52","male","32.5","mid","mid","normal","normal","false","normal","normal","maintain weight","150","230","40","1200","1200","800","2300"
+"38","female","28.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","125","210","35","1150","1150","750","1800"
+"59","female","32.5","very low","very low","hypertension","severely high","true","severely abnormal","abnormal","lose weight","105","190","30","1150","1150","750","1600"
+"45","male","30.5","mid","mid","normal","normal","false","normal","normal","maintain weight","145","230","40","1200","1200","800","2300"
+"36","female","27.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","125","210","35","1150","1150","750","1800"
+"25","male","22.5","high","high","normal","normal","false","normal","normal","gain endurance","175","260","50","1250","1250","850","2900"
+"63","female","33.5","very low","very low","hypertension","severely high","true","severely abnormal","abnormal","lose weight","105","190","30","1150","1150","750","1600"
+"50","male","31.5","mid","mid","normal","normal","false","normal","normal","maintain weight","150","230","40","1200","1200","800","2300"
+"39","female","29.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","125","210","35","1150","1150","750","1800"
+"23","male","22.5","high","high","normal","normal","false","normal","normal","gain muscle","195","280","55","1250","1250","850","3100"
+"62","female","32.5","very low","very low","hypertension","severely high","true","severely abnormal","abnormal","lose weight","105","190","30","1150","1150","750","1600"
+"47","male","30.5","mid","mid","normal","normal","false","normal","normal","maintain weight","145","230","40","1200","1200","800","2300"
+"37","female","28.5","low","low","hypertension","high","true","abnormal","abnormal","lose weight","125","210","35","1150","1150","750","1800"
+"26","male","23.5","high","high","normal","normal","false","normal","normal","gain endurance","170","250","45","1250","1250","850","2800"
+"61","female","32.5","very low","very low","hypertension","severely high","true","severely abnormal","abnormal","lose weight","105","190","30","1150","1150","750","1600"
+"28","Female","24.5","high","high","normal","normal","False","normal","normal","gain weight","140","260","45","1250","1250","850","2400"
+"40","Male","29.5","mid","mid","normal","normal","False","normal","normal","lose weight","120","220","35","1150","1150","750","1900"
+"19","Female","20.5","very high","very high","normal","normal","False","normal","abnormal","gain endurance","190","300","60","1300","1300","900","3200"
+"62","Male","27.5","low","low","hypertension","high","True","abnormal","normal","lose weight","100","190","30","1100","1100","700","1700"
+"35","Female","26.5","high","high","normal","normal","False","normal","normal","gain muscle","160","280","55","1250","1250","850","2600"
+"50","Male","31.5","mid","mid","normal","normal","False","normal","abnormal","maintain weight","130","230","40","1200","1200","800","2000"
+"22","Female","21.5","very high","very high","normal","normal","False","normal","abnormal","gain endurance","200","310","65","1300","1300","900","3300"
+"45","Male","28.5","mid","mid","normal","normal","False","normal","normal","lose weight","110","200","30","1100","1100","700","1700"
+"38","Female","25.5","high","high","normal","normal","False","normal","normal","gain weight","150","270","50","1250","1250","850","2400"
+"55","Male","30.5","mid","mid","normal","normal","False","normal","abnormal","maintain weight","140","250","45","1250","1250","850","2200"
+"25","Female","22.5","very high","very high","normal","normal","False","normal","abnormal","gain endurance","190","300","60","1300","1300","900","3200"
+"42","Male","27.5","mid","mid","normal","normal","False","normal","normal","lose weight","120","210","35","1150","1150","750","1900"
+"32","Female","24.5","high","high","normal","normal","False","normal","normal","gain muscle","160","280","55","1250","1250","850","2600"
+"58","Male","31.5","mid","mid","normal","normal","False","normal","abnormal","maintain weight","130","230","40","1200","1200","800","2000"
+"29","Female","23.5","high","high","normal","normal","False","normal","normal","gain weight","150","270","50","1250","1250","850","2400"
+"48","Male","29.5","mid","mid","normal","normal","False","normal","normal","lose weight","110","200","30","1100","1100","700","1700"
+"36","Female","25.5","high","high","normal","normal","False","normal","normal","gain muscle","160","280","55","1250","1250","850","2600"
+"52","Male","30.5","mid","mid","normal","normal","False","normal","abnormal","maintain weight","140","250","45","1250","1250","850","2200"
+"16","Female","19.5","very high","very high","normal","normal","False","normal","abnormal","gain endurance","190","300","60","1300","1300","900","3200"
+"63","Male","29.5","low","low","hypertension","high","True","abnormal","normal","lose weight","100","190","30","1100","1100","700","1700"
+"39","Female","24.5","high","high","normal","normal","False","normal","normal","gain weight","140","260","45","1250","1250","850","2400"
+"51","Male","31.5","mid","mid","normal","normal","False","normal","abnormal","maintain weight","130","230","40","1200","1200","800","2000"
+"26","Female","22.5","very high","very high","normal","normal","False","normal","abnormal","gain endurance","200","310","65","1300","1300","900","3300"
+"44","Male","28.5","mid","mid","normal","normal","False","normal","normal","lose weight","120","210","35","1150","1150","750","1900"
+"34","Female","26.5","high","high","normal","normal","False","normal","normal","gain muscle","160","280","55","1250","1250","850","2600"
+"59","Male","32.5","mid","mid","normal","normal","False","normal","abnormal","maintain weight","140","250","45","1250","1250","850","2200"
+"21","Female","20.5","very high","very high","normal","normal","False","normal","abnormal","gain endurance","190","300","60","1300","1300","900","3200"
+"46","Male","29.5","mid","mid","normal","normal","False","normal","normal","lose weight","110","200","30","1100","1100","700","1700"
+"37","Female","25.5","high","high","normal","normal","False","normal","normal","gain weight","150","270","50","1250","1250","850","2400"
+"53","Male","30.5","mid","mid","normal","normal","False","normal","abnormal","maintain weight","130","230","40","1200","1200","800","2000"
+"24","Female","21.5","very high","very high","normal","normal","False","normal","abnormal","gain endurance","200","310","65","1300","1300","900","3300"
+"41","Male","27.5","mid","mid","normal","normal","False","normal","normal","lose weight","120","210","35","1150","1150","750","1900"
+"33","Female","24.5","high","high","normal","normal","False","normal","normal","gain muscle","160","280","55","1250","1250","850","2600"
+"56","Male","31.5","mid","mid","normal","normal","False","normal","abnormal","maintain weight","140","250","45","1250","1250","850","2200"
+"43","Male","28.5","mid","mid","normal","normal","False","normal","normal","lose weight","110","200","30","1100","1100","700","1700"
+"27","Female","22.5","very high","very high","normal","normal","False","normal","abnormal","gain endurance","200","310","65","1300","1300","900","3300"
+"49","Male","29.5","mid","mid","normal","normal","False","normal","normal","lose weight","120","210","35","1150","1150","750","1900"
+"31","Female","23.5","high","high","normal","normal","False","normal","normal","gain weight","150","270","50","1250","1250","850","2400"
+"57","Male","31.5","mid","mid","normal","normal","False","normal","abnormal","maintain weight","130","230","40","1200","1200","800","2000"
+"23","Female","21.5","very high","very high","normal","normal","False","normal","abnormal","gain endurance","190","300","60","1300","1300","900","3200"
+"38","Female","25.5","high","high","normal","normal","False","normal","normal","gain muscle","160","280","55","1250","1250","850","2600"
+"54","Male","30.5","mid","mid","normal","normal","False","normal","abnormal","maintain weight","140","250","45","1250","1250","850","2200"
+"25","Female","22.5","very high","very high","normal","normal","False","normal","abnormal","gain endurance","200","310","65","1300","1300","900","3300"
+"47","Male","29.5","mid","mid","normal","normal","False","normal","normal","lose weight","120","210","35","1150","1150","750","1900"
+"30","Female","23.5","high","high","normal","normal","False","normal","normal","gain weight","150","270","50","1250","1250","850","2400"
+"55","Male","31.5","mid","mid","normal","normal","False","normal","abnormal","maintain weight","130","230","40","1200","1200","800","2000"
+"20","Female","20.5","very high","very high","normal","normal","False","normal","abnormal","gain endurance","190","300","60","1300","1300","900","3200"
+"42","Male","27.5","mid","mid","normal","normal","False","normal","normal","lose weight","110","200","30","1100","1100","700","1700"
+"35","Female","24.5","high","high","normal","normal","False","normal","normal","gain muscle","160","280","55","1250","1250","850","2600"
+"50","Male","29.5","mid","mid","normal","normal","False","normal","abnormal","maintain weight","130","230","40","1200","1200","800","2000"
