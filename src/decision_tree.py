@@ -106,7 +106,10 @@ def build_decision_trees(data_set, input_attributes, output_attributes):
             output_attribute=output_attribute,
             decision_tree=decision_tree
         )
-        decision_trees[output_attribute] = decision_tree
+        decision_trees[output_attribute] = {
+            'tree': decision_tree,
+            'most_freq_value': get_dominent_output_value(data_set, output_attribute)
+        }
     return decision_trees
 
 def build_trees_with_datasets(dataset_name):

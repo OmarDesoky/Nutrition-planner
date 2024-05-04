@@ -45,10 +45,19 @@ def convert_to_labels(data_row):
             data_row[attribute_name] = num_to_label(attribute_name, value)
         if data_row[attribute_name] is None:
             print('Invalid Data Row')
-            breakpoint()
     return data_row
 
-def upload_data_set(file_path):
+def convert_to_ranges(data_row):
+    for attribute_name,value in data_row.items():
+        if isinstance(value, str):
+            data_row[attribute_name] = value.lower()
+        if attributes['range'].get(attribute_name):
+            data_row[attribute_name] = label_to_range(attribute_name, value)
+        if data_row[attribute_name] is None:
+            print('Invalid Data Row')
+    return data_row
+
+def upload_data_set(file_path, split_fraction = 0.9, test = False):
     dataset = read_csv(f'../{file_path}')
     dataset.columns = dataset.columns.str.lower()
     dataset_attr = dataset.columns.tolist()
@@ -57,7 +66,9 @@ def upload_data_set(file_path):
     dataset_attr = input_attributes + output_attributes
     dict_data = dataset.to_dict()
     dict_dataset = []
-    for i in range(dataset.shape[0]):
+    begin = 0 if not test else int(dataset.shape[0]*split_fraction)
+    end = int(dataset.shape[0]*split_fraction) if not test else dataset.shape[0]
+    for i in range(begin, end):
         dict_dataset.append(convert_to_labels({attribute:dict_data[attribute][i] for attribute in dataset_attr}))
     return dict_dataset, input_attributes, output_attributes
 
