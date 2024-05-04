@@ -26,3 +26,43 @@ output_attributes = [
 min = 15
 max = 45
 divisions = 6
+
+[range.age]
+min = 14
+max = 70
+divisions = 7
+
+[range.proteins]
+min = 50
+max = 300
+divisions = 10
+
+[range.carbohydrates]
+min = 200
+max = 350
+divisions = 10
+
+[range.fats]
+min = 20
+max = 120
+divisions = 10
+
+[range.calcium]
+min = 1100
+max = 1300
+divisions = 10
+
+[range.vitamin_a]
+min = 1100
+max = 1300
+divisions = 10
+
+[range.vitamin_c]
+min = 700
+max = 900
+divisions = 10
+
+[range.calories]
+min = 1500
+max = 4500
+divisions = 10
