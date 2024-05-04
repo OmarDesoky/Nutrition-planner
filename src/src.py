@@ -48,9 +48,57 @@ def protien_to_class(protien):
         return int(protien//25.001)
     except ValueError:
         pass
+
+def fats_to_class(fats):
+    try:
+        fats = int(fats)
+        fats -= 20
+        return int(fats//10.001)
+    except ValueError:
+        pass    
     
+def calcium_to_class(calcium):
+    try:
+        calcium = int(calcium)
+        calcium -= 1100
+        return int(calcium//20.001)
+    except ValueError:
+        pass
+
+def carbohydrates_to_class(carbohydrates):
+    try:
+        carbohydrates = int(carbohydrates)
+        carbohydrates -= 200
+        return int(carbohydrates//30.001)
+    except ValueError:
+        pass
+
+def vitamin_a_to_class(vitamin_a):
+    try:
+        vitamin_a = int(vitamin_a)
+        vitamin_a -= 1100
+        return int(vitamin_a//20.001)
+    except ValueError:
+        pass
+
+def vitamin_c_to_class(vitamin_c):
+    try:
+        vitamin_c = int(vitamin_c)
+        vitamin_c -= 700
+        return int(vitamin_c//20.001)
+    except ValueError:
+        pass
+
+def calories_to_class(calories):
+    try:
+        calories = int(calories)
+        calories -= 1500
+        return int(calories//300.001)
+    except ValueError:
+        pass
+
 # Load the data sample
-data = pd.read_csv('../data/data_llama.csv')
+data = pd.read_csv('../data/data_gpt.csv')
 
 # Convert columns to lowercase
 data.columns = data.columns.str.lower()
@@ -58,13 +106,18 @@ data.columns = data.columns.str.lower()
 data['age'] = data['age'].apply(age_to_class)
 data['bmi'] = data['bmi'].apply(bmi_to_class)
 data['proteins'] = data['proteins'].apply(protien_to_class)
-
+data['calcium'] = data['calcium'].apply(calcium_to_class)
+data['carbohydrates'] = data['carbohydrates'].apply(carbohydrates_to_class)
+data['fats'] = data['fats'].apply(fats_to_class)
+data['vitamin_a'] = data['vitamin_a'].apply(vitamin_a_to_class)
+data['vitamin_c'] = data['vitamin_c'].apply(vitamin_c_to_class)
+data['calories'] = data['calories'].apply(calories_to_class)
 # Convert rows to lowercase
 data = data.applymap(lambda x: x.lower() if isinstance(x, str) else x)
 
 
 # # Define the feature columns
-X = data[["age","gender","bmi","metabolic rate","physical activity intensity","blood pressure","diabetic","heart disease","nutrition goal"]]
+X = data[["age","gender","bmi","metabolic rate","physical activity intensity","blood pressure","diabetic","heart disease", "anemia", "lactose intolerance","nutrition goal"]]
 le = LabelEncoder()
 X["age"] = le.fit_transform(X["age"])
 X["gender"] = le.fit_transform(X["gender"])
@@ -74,26 +127,30 @@ X["physical activity intensity"] = le.fit_transform(X["physical activity intensi
 X["blood pressure"] = le.fit_transform(X["blood pressure"])
 X["diabetic"] = le.fit_transform(X["diabetic"])
 X["heart disease"] = le.fit_transform(X["heart disease"])
-# X["anemia"] = le.fit_transform(X["anemia"])
-# X["lactose intolerance"] = le.fit_transform(X["lactose intolerance"])
+X["anemia"] = le.fit_transform(X["anemia"])
+X["lactose intolerance"] = le.fit_transform(X["lactose intolerance"])
 X["nutrition goal"] = le.fit_transform(X["nutrition goal"])
 
-print(X)
-# Define the target column
-y = data["proteins"]
 
-# Split the data into training and testing sets
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+y = data[["proteins","carbohydrates","fats","calcium","vitamin_a","vitamin_c","calories"]]
+# print(y.columns[0])
+for attribute in y.columns:
+    print(attribute)
+    # Define the target column
+    y = data[attribute]
 
-# Create a DecisionTreeClassifier object with the ID3 algorithm
-clf = DecisionTreeClassifier(criterion="entropy", max_depth=9)
+    # Split the data into training and testing sets
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# Train the model on the training data
-clf.fit(X_train, y_train)
+    # Create a DecisionTreeClassifier object with the ID3 algorithm
+    clf = DecisionTreeClassifier(criterion="entropy", max_depth=9)
 
-# Evaluate the model on the testing data
-accuracy = clf.score(X_test, y_test)
-print("Accuracy:", accuracy)
+    # Train the model on the training data
+    clf.fit(X_train, y_train)
+
+    # Evaluate the model on the testing data
+    accuracy = clf.score(X_test, y_test)
+    print("Accuracy:", accuracy)
 
 
 new_sample = pd.DataFrame({
@@ -105,8 +162,8 @@ new_sample = pd.DataFrame({
     "blood pressure": [1],  # 0 = hypotension, 1 = normal, 2 = hypertension
     "diabetic": [0],  # 0 = normal, 1 = high, 2 = severely high
     "heart disease": [0],  # 0 = no, 1 = yes
-    # "anemia": [0],  # 0 = normal, 1 = abnormal, 2 = severely abnormal
-    # "lactose intolerance": [0],  # 0 = normal, 1 = abnormal
+    "anemia": [0],  # 0 = normal, 1 = abnormal, 2 = severely abnormal
+    "lactose intolerance": [0],  # 0 = normal, 1 = abnormal
     "nutrition goal": [2]  # 0 = gain weight, 1 = lose weight, 2 = maintain weight, 3 = gain muscle, 4 = gain endurance
 })
 

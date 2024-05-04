@@ -1,27 +1,27 @@
 Act as professional nutritionist, your task is to generate 30 random data points from a real population and must be realistic, containing the following attributes:
 {
-Age: a number number representing age of the person ranging from (14 to 70),
-Gender: a class among(male, female) representing the gender,
-BMI: a float number representing body mass index ranging from (15 to 45),
-Metabolic rate: a class among [very low, low, mid, high, very high] representing the metabolic rate of the the person,
-physical activity intensity: a class among [very low, low, mid, high, very high] representing intensity of daily physical activity,
-Blood pressure: a class among [hypotension, normal, hypertension] representing blood pressure of the person,
-Diabetic: a class among [normal, high, severely high] representing the diabetic state,
-Heart disease: a Boolean describes whether a person suffers from heart diseases or not,
-Anemia: a class among [normal, abnormal, severely abnormal] representing anemia state,
-Lactose Intolerance: a class among [normal, abnormal] representing how much Lactose Intolerant is the person.
-Nutrition goal: a class among [gain weight, lose weight, maintain weight, gain muscle, gain endurance] representing the goal, the person needs to reach (it must be realistic goal depends on pervious attributes),
+    Age: a number number representing age of the person ranging from (14 to 70),
+    Gender: a class among(male, female) representing the gender,
+    BMI: a float number representing body mass index ranging from (15 to 45),
+    Metabolic rate: a class among [very low, low, mid, high, very high] representing the metabolic rate of the the person,
+    physical activity intensity: a class among [very low, low, mid, high, very high] representing intensity of daily physical activity,
+    Blood pressure: a class among [hypotension, normal, hypertension] representing blood pressure of the person,
+    Diabetic: a class among [normal, high, severely high] representing the diabetic state,
+    Heart disease: a Boolean (true, false) describes whether a person suffers from heart diseases or not,
+    Anemia: a class among [normal, abnormal, severely abnormal] representing anemia state,
+    Lactose Intolerance: a class among [normal, abnormal] representing how much Lactose Intolerant is the person.
+    Nutrition goal: a class among [gain weight, lose weight, maintain weight, gain muscle, gain endurance] representing the goal, the person needs to reach (it must be realistic goal depends on pervious attributes),
 } 
 
 After talking every attribute into consideration and based on the required nutrition goal, Accurately estimate the following required values:
 {
- Proteins: a number representing the proteins in grams needed per day ranging from (50 to 300),
- Carbohydrates: a number representing the Carbohydrates in grams needed per day ranging from (200 to 350),
- Fats: a number representing the Fats in grams needed per day ranging from (20 to 120),
- Calcium: a number representing the Calcium in grams needed per day ranging from (1100 to 1300),
- Vitamin_A: a number representing the "Vitamin A" in micrograms needed per day ranging from (1100 to 1300),
- Vitamin_C: a number representing the "Vitamin C" in milligrams needed per day ranging from (700 to 900),
- Calories: a number representing the Calories needed per day ranging from (1500 to 4500),	
+    Proteins: a number representing the proteins in grams needed per day ranging from (50 to 300),
+    Carbohydrates: a number representing the Carbohydrates in grams needed per day ranging from (200 to 350),
+    Fats: a number representing the Fats in grams needed per day ranging from (20 to 120),
+    Calcium: a number representing the Calcium in grams needed per day ranging from (1100 to 1300),
+    Vitamin_A: a number representing the "Vitamin A" in micrograms needed per day ranging from (1100 to 1300),
+    Vitamin_C: a number representing the "Vitamin C" in milligrams needed per day ranging from (700 to 900),
+    Calories: a number representing the Calories needed per day ranging from (1500 to 4500),	
 }
 
 the output should be in a csv format, without explanation.
