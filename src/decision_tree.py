@@ -1,4 +1,5 @@
 from math import log
+from util import upload_data_set, save_json
 
 def build_decision_trees(data_set, input_attributes, output_attributes):
     decision_trees = {}
@@ -101,3 +102,10 @@ def build_decision_trees(data_set, input_attributes, output_attributes):
         )
         decision_trees[output_attribute] = decision_tree
     return decision_trees
+
+def build_trees_with_datasets(dataset_name):
+    data_set, input_attributes, output_attributes = upload_data_set(f'data/{dataset_name}.csv')
+    decision_trees = build_decision_trees(data_set,input_attributes,output_attributes)
+    save_json(f'decision_trees/{dataset_name}.json', decision_trees)
+
+build_trees_with_datasets('data_llama')

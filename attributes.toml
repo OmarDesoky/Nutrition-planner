@@ -1,0 +1,28 @@
+input_attributes = [
+    "bmi",
+    "age",
+    "gender",
+    "metabolic rate",
+    "physical activity intensity",
+    "blood pressure",
+    "diabetic",
+    "heart disease",
+    "lactose intolerance",
+    "anemia",
+    "nutrition goal"
+]
+
+output_attributes = [
+    "proteins",
+    "carbohydrates",
+    "fats",
+    "calcium",
+    "vitamin_a",
+    "vitamin_c",
+    "calories"
+]
+
+[range.bmi]
+min = 15
+max = 45
+divisions = 6
