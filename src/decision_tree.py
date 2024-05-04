@@ -1,3 +1,4 @@
+from copy import deepcopy
 from math import log
 from util import upload_data_set, save_json
 
@@ -6,10 +7,10 @@ def build_decision_trees(data_set, input_attributes, output_attributes):
     nodes_count = 0
 
     def compute_entropy(values_map, output_values_map):
-        # normalize 
-        input_value_probability = {k:val/sum(values_map.values()) for k,val in values_map.items()} # P(x)
+        # normalize
+        input_value_probability = {k:val/__builtins__.sum(values_map.values()) for k,val in values_map.items()} # P(x)
         input_value_probability_given_output_value = {
-            b: { k:val/sum(t.values()) for k,val in t.items() } 
+            b: { k:val/__builtins__.sum(t.values()) for k,val in t.items() } 
             for b,t in output_values_map.items()
         }
         entropy = 0
@@ -43,7 +44,8 @@ def build_decision_trees(data_set, input_attributes, output_attributes):
             optimal_attribute = attr if attribute_entropy < min_entropy else optimal_attribute
             min_entropy = min(min_entropy, attribute_entropy)
         value_dataset_map = {}
-        for row in data_set:
+        new_data_set = deepcopy(data_set)
+        for row in new_data_set:
             value = row.pop(optimal_attribute)
             if not value_dataset_map.get(value):
                 value_dataset_map[value] = []
@@ -74,8 +76,10 @@ def build_decision_trees(data_set, input_attributes, output_attributes):
         nodes_count += 1
         if not input_attributes:
             node['inference'] = get_dominent_output_value(data_set,output_attribute)
+            decision_tree.append(node)
             return node['node_id']
         if one_output_value:
+            decision_tree.append(node)
             return node['node_id']
         optimal_attribute, attr_values_datasets_map = get_minimum_entropy_attribute(
             data_set, input_attributes, output_attribute
@@ -109,3 +113,4 @@ def build_trees_with_datasets(dataset_name):
     save_json(f'decision_trees/{dataset_name}.json', decision_trees)
 
 build_trees_with_datasets('data_llama')
+build_trees_with_datasets('data_gpt')

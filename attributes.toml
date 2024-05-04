@@ -38,7 +38,7 @@ max = 300
 divisions = 10
 
 [range.carbohydrates]
-min = 200
+min = 150
 max = 350
 divisions = 10
 

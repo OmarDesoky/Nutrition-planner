@@ -39,10 +39,13 @@ def label_to_range(attribute_name, label):
 
 def convert_to_labels(data_row):
     for attribute_name,value in data_row.items():
+        if isinstance(value, str):
+            data_row[attribute_name] = value.lower()
         if attributes['range'].get(attribute_name):
             data_row[attribute_name] = num_to_label(attribute_name, value)
         if data_row[attribute_name] is None:
             print('Invalid Data Row')
+            breakpoint()
     return data_row
 
 def upload_data_set(file_path):
