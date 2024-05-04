@@ -69,7 +69,7 @@ def build_decision_trees(data_set, input_attributes, output_attributes):
         one_output_value = check_one_output_value(data_set, output_attribute)
         node = {
             'node_id': nodes_count,
-            'children': [],
+            'children': {},
             'attribute': None,
             'inference': one_output_value
         }
@@ -88,10 +88,12 @@ def build_decision_trees(data_set, input_attributes, output_attributes):
         decision_tree.append(node)
         new_input_attributes = [attr for attr in input_attributes if attr != optimal_attribute]
         for attr_value, sub_data_set in attr_values_datasets_map.items():
-            node['children'].append({
-                'child_id': build_decision_tree(sub_data_set,new_input_attributes,output_attribute,decision_tree),
-                'attribute_value': attr_value
-            })
+            node['children'][attr_value] = build_decision_tree(
+                sub_data_set,
+                new_input_attributes,
+                output_attribute,
+                decision_tree
+            )
         decision_tree[node['node_id']] = node
         return node['node_id']
 
