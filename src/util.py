@@ -103,7 +103,7 @@ def validate_ui_attributes(row):
         if attribute in attributes['range']:
             attr_range = attributes['range'][attribute]
             try:
-                value = int(value)
+                value = float(value)
             except Exception as err:
                 issues.append(
                     f"Please add Integer value for attribute {attribute} in the range [{attr_range['min']},{attr_range['max']}]"
@@ -113,6 +113,8 @@ def validate_ui_attributes(row):
                 issues.append(
                     f"Please add Integer value for attribute {attribute} in the range [{attr_range['min']},{attr_range['max']}]"
                 )
+            else:
+                row[attribute] = value
         if attribute in attributes['values']:
             if value not in attributes['values'][attribute]:
                 issues.append(
@@ -122,6 +124,6 @@ def validate_ui_attributes(row):
         row['bmi'] = row['weight']/(row['height']**2)
         row.pop('weight')
         row.pop('height')
-        row['heart_disease'] = True if row['heart_disease'] == "Yes" else False
+        row['heart disease'] = True if row['heart disease'] == "Yes" else False
     row = convert_to_labels(row)
     return issues

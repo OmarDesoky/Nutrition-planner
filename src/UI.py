@@ -18,7 +18,7 @@ class NutritionCalculator:
         self.weight_entry = ttk.Entry(root)
         self.weight_entry.grid(row=1, column=1, padx=5, pady=5)
 
-        self.height_label = ttk.Label(root, text="Height (cm):")
+        self.height_label = ttk.Label(root, text="Height (m):")
         self.height_label.grid(row=2, column=0, padx=5, pady=5, sticky="w")
         self.height_entry = ttk.Entry(root)
         self.height_entry.grid(row=2, column=1, padx=5, pady=5)
@@ -65,19 +65,26 @@ class NutritionCalculator:
         self.lactose_intolerance_combobox = ttk.Combobox(root, textvariable=self.lactose_intolerance_var, values=["Normal", "High", "Severely high"])
         self.lactose_intolerance_combobox.grid(row=9, column=1, padx=5, pady=5)
 
+
+        self.anemia_label = ttk.Label(root, text="Anemia:")
+        self.anemia_label.grid(row=10, column=0, padx=5, pady=5, sticky="w")
+        self.anemia_var = tk.StringVar()
+        self.anemia_combobox = ttk.Combobox(root, textvariable=self.anemia_var, values=["Normal", "Abnormal", "Severely abnormal"])
+        self.anemia_combobox.grid(row=10, column=1, padx=5, pady=5)
+
         self.nutrition_goal_label = ttk.Label(root, text="Nutrition goal:")
-        self.nutrition_goal_label.grid(row=10, column=0, padx=5, pady=5, sticky="w")
+        self.nutrition_goal_label.grid(row=11, column=0, padx=5, pady=5, sticky="w")
         self.nutrition_goal_var = tk.StringVar()
         self.nutrition_goal_combobox = ttk.Combobox(root, textvariable=self.nutrition_goal_var, values=["Gain weight", "Lose weight", "Maintain weight", "Gain muscle", "Gain endurance"])
-        self.nutrition_goal_combobox.grid(row=10, column=1, padx=5, pady=5)
+        self.nutrition_goal_combobox.grid(row=11, column=1, padx=5, pady=5)
 
         self.calculate_button = ttk.Button(root, text="Calculate", command=self.calculate_nutrition)
-        self.calculate_button.grid(row=11, column=0, columnspan=2, padx=5, pady=5)
+        self.calculate_button.grid(row=12, column=0, columnspan=2, padx=5, pady=5)
 
         self.output_label = ttk.Label(root, text="Output:")
-        self.output_label.grid(row=12, column=0, padx=5, pady=5, sticky="w")
+        self.output_label.grid(row=13, column=0, padx=5, pady=5, sticky="w")
         self.output_text = tk.Text(root, height=10, width=50)
-        self.output_text.grid(row=12, column=1, padx=5, pady=5)
+        self.output_text.grid(row=13, column=1, padx=5, pady=5)
 
     def calculate_nutrition(self):
         row = {
@@ -85,13 +92,14 @@ class NutritionCalculator:
             'weight': self.weight_entry.get(),
             'height': self.height_entry.get(),
             'gender': self.gender_var.get(),
-            'metabolic_rate': self.metabolic_rate_var.get(),
-            'physical_activity_intensity': self.physical_activity_var.get(),
-            'blood_pressure': self.blood_pressure_var.get(),
+            'metabolic rate': self.metabolic_rate_var.get(),
+            'physical activity intensity': self.physical_activity_var.get(),
+            'blood pressure': self.blood_pressure_var.get(),
             'diabetic': self.diabetic_var.get(),
-            'heart_disease': self.heart_disease_var.get(),
-            'lactose_intolerance': self.lactose_intolerance_var.get(),
-            'nutrition_goal': self.nutrition_goal_var.get()
+            'heart disease': self.heart_disease_var.get(),
+            'lactose intolerance': self.lactose_intolerance_var.get(),
+            'anemia': self.anemia_var.get(),
+            'nutrition goal': self.nutrition_goal_var.get()
         }
 
         issues = validate_ui_attributes(row)
@@ -100,7 +108,7 @@ class NutritionCalculator:
             for issue in issues:
                 output_text += f'{issue}\n'
         else:
-            output_row = infer(row, 'decision_trees/data_llama.json')
+            output_row = infer(row, 'decision_trees/data_gpt.json')
 
             proteins = f"[{output_row['proteins']['min']}-{output_row['proteins']['max']}]"
             carbohydrates = f"[{output_row['carbohydrates']['min']}-{output_row['carbohydrates']['max']}]"
