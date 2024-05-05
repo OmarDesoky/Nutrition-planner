@@ -11,15 +11,12 @@ def print_accuracy(dataset_name):
             true_val = row[output_attribute]
             infered_val = row['inference'][output_attribute]
             if row[output_attribute] == row['inference'][output_attribute]:
-                output_attributes_accuracy[output_attribute]["success"] += 3
-            elif abs(true_val-infered_val) < 2:
                 output_attributes_accuracy[output_attribute]["success"] += 2
-                output_attributes_accuracy[output_attribute]["fail"] += 1
-            elif abs(true_val-infered_val) < 3:
+            elif abs(true_val-infered_val) < 2:
                 output_attributes_accuracy[output_attribute]["success"] += 1
-                output_attributes_accuracy[output_attribute]["fail"] += 2
+                output_attributes_accuracy[output_attribute]["fail"] += 1
             else:
-                output_attributes_accuracy[output_attribute]["fail"] += 3
+                output_attributes_accuracy[output_attribute]["fail"] += 2
     over_all_success = over_all_fail = 0
     for k,v in output_attributes_accuracy.items():
         print(f'{v["success"]} Success and {v["fail"]} Fail, Accuracy for {k} = {v["success"]/(v["success"]+v["fail"])}')

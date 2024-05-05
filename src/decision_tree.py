@@ -113,7 +113,6 @@ def build_decision_trees(data_set, input_attributes, output_attributes):
     return decision_trees
 
 def build_trees_with_datasets(dataset_name):
-    shuffle_data_set(f'data/{dataset_name}.csv')
     data_set, input_attributes, output_attributes = upload_data_set(f'data/{dataset_name}.csv')
     data_set = data_set[:int(len(data_set)*0.9)]
     decision_trees = build_decision_trees(data_set,input_attributes,output_attributes)

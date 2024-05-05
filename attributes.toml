@@ -35,34 +35,34 @@ divisions = 7
 [range.proteins]
 min = 50
 max = 300
-divisions = 10
+divisions = 5
 
 [range.carbohydrates]
 min = 150
 max = 350
-divisions = 10
+divisions = 5
 
 [range.fats]
 min = 20
 max = 120
-divisions = 10
+divisions = 5
 
 [range.calcium]
 min = 1100
 max = 1300
-divisions = 10
+divisions = 5
 
 [range.vitamin_a]
 min = 1100
 max = 1300
-divisions = 10
+divisions = 5
 
 [range.vitamin_c]
 min = 700
 max = 900
-divisions = 10
+divisions = 5
 
 [range.calories]
 min = 1500
-max = 4500
-divisions = 10
+max = 4000
+divisions = 5
