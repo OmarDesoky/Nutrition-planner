@@ -24,5 +24,4 @@ def print_accuracy(dataset_name):
         over_all_success += v["success"]
     print(f'Overall accuracy = {over_all_success/(over_all_success+over_all_fail)}, {over_all_success} Success and {over_all_fail} Fail')
 
-print_accuracy('data_llama')
-print_accuracy('data_gpt')
+print_accuracy('combined_data')
