@@ -1,14 +1,14 @@
 input_attributes = [
-    "bmi",
     "age",
     "gender",
+    "bmi",
     "metabolic rate",
     "physical activity intensity",
     "blood pressure",
     "diabetic",
     "heart disease",
-    "lactose intolerance",
     "anemia",
+    "lactose intolerance",
     "nutrition goal"
 ]
 

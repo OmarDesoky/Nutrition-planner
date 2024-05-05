@@ -1,6 +1,9 @@
 import json
+import math
+import random
 import toml
 from pandas import read_csv
+import csv
 
 EPS = 0.000001
 
@@ -15,10 +18,12 @@ attributes = get_attributes_meta_data('attributes.toml')
 def num_to_label(attribute_name, value):
     try:
         range_attr = attributes['range'][attribute_name]
+        value = range_attr['min'] if value < range_attr['min'] else value
+        value = range_attr['max'] if value > range_attr['max'] else value
         if value < range_attr['min'] or value > range_attr['max']:
             raise f'Value for attribute {attribute_name} out of range'
         value -= range_attr['min']
-        precision = (range_attr['max'] - range_attr['min'])//range_attr['divisions']
+        precision = (range_attr['max'] - range_attr['min'])/range_attr['divisions']
         return int(value/(precision+EPS))
     except Exception as err:
         print(err)
@@ -57,7 +62,7 @@ def convert_to_ranges(data_row):
             print('Invalid Data Row')
     return data_row
 
-def upload_data_set(file_path, split_fraction = 0.9, test = False):
+def upload_data_set(file_path, shuffle = False):
     dataset = read_csv(f'../{file_path}')
     dataset.columns = dataset.columns.str.lower()
     dataset_attr = dataset.columns.tolist()
@@ -66,10 +71,11 @@ def upload_data_set(file_path, split_fraction = 0.9, test = False):
     dataset_attr = input_attributes + output_attributes
     dict_data = dataset.to_dict()
     dict_dataset = []
-    begin = 0 if not test else int(dataset.shape[0]*split_fraction)
-    end = int(dataset.shape[0]*split_fraction) if not test else dataset.shape[0]
-    for i in range(begin, end):
-        dict_dataset.append(convert_to_labels({attribute:dict_data[attribute][i] for attribute in dataset_attr}))
+    for i in range(dataset.shape[0]):
+        if shuffle:
+            dict_dataset.append({attribute:dict_data[attribute][i] for attribute in dataset_attr})
+        else:
+            dict_dataset.append(convert_to_labels({attribute:dict_data[attribute][i] for attribute in dataset_attr}))
     return dict_dataset, input_attributes, output_attributes
 
 def save_json(file_path, data):
@@ -80,3 +86,13 @@ def load_json(file_path):
     with open(f'../{file_path}', 'r') as json_file:
         json_data = json.load(json_file)
     return json_data
+
+def shuffle_data_set(file_path):
+    dataset, input_attributes, output_attributes = upload_data_set(file_path, shuffle=True)
+    random.shuffle(dataset)
+    keys = dataset[0].keys()
+    with open(f'../{file_path}', 'w', newline='') as csv_file:
+        writer = csv.DictWriter(csv_file, fieldnames=keys)
+        writer.writeheader()
+        for row in dataset:
+            writer.writerow(row)
