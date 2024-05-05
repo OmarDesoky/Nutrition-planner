@@ -22,6 +22,14 @@ output_attributes = [
     "calories"
 ]
 
+[range.height]
+min = 1.2
+max = 2.1
+
+[range.weight]
+min = 20
+max = 200
+
 [range.bmi]
 min = 15
 max = 45
@@ -66,3 +74,13 @@ divisions = 5
 min = 1500
 max = 4000
 divisions = 5
+
+[values]
+gender = ["Female", "Male"]
+metabolic_rate = ["Very low", "Low", "Mid", "High", "Very high"]
+physical_activity_intensity = ["Very low", "Low", "Mid", "High", "Very high"]
+blood_pressure = ["Hypotension", "Normal", "Hypertension"]
+diabetic = ["Normal", "High", "Severely high"]
+heart_disease = ["Yes", "No"]
+lactose_intolerance = ["Normal", "High", "Severely high"]
+nutrition_goal = ["Gain weight", "Lose weight", "Maintain weight", "Gain muscle", "Gain endurance"]

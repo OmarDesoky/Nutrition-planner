@@ -96,3 +96,32 @@ def shuffle_data_set(file_path):
         writer.writeheader()
         for row in dataset:
             writer.writerow(row)
+
+def validate_ui_attributes(row):
+    issues= []
+    for attribute, value in row.items():
+        if attribute in attributes['range']:
+            attr_range = attributes['range'][attribute]
+            try:
+                value = int(value)
+            except Exception as err:
+                issues.append(
+                    f"Please add Integer value for attribute {attribute} in the range [{attr_range['min']},{attr_range['max']}]"
+                )
+                continue
+            if value > attr_range['max'] or value < attr_range['min']:
+                issues.append(
+                    f"Please add Integer value for attribute {attribute} in the range [{attr_range['min']},{attr_range['max']}]"
+                )
+        if attribute in attributes['values']:
+            if value not in attributes['values'][attribute]:
+                issues.append(
+                    f"Please add a value for attribute {attribute} from this set of values {attributes['values'][attribute]}"
+                )
+    if not issues:
+        row['bmi'] = row['weight']/(row['height']**2)
+        row.pop('weight')
+        row.pop('height')
+        row['heart_disease'] = True if row['heart_disease'] == "Yes" else False
+    row = convert_to_labels(row)
+    return issues

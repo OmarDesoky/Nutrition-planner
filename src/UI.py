@@ -1,5 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
+from util import validate_ui_attributes
+from inference import infer
 
 class NutritionCalculator:
     def __init__(self, root):
@@ -78,29 +80,37 @@ class NutritionCalculator:
         self.output_text.grid(row=12, column=1, padx=5, pady=5)
 
     def calculate_nutrition(self):
-        age = int(self.age_entry.get())
-        weight = int(self.weight_entry.get())
-        height = int(self.height_entry.get())
-        gender = self.gender_var.get()
-        metabolic_rate = self.metabolic_rate_var.get()
-        physical_activity_intensity = self.physical_activity_var.get()
-        blood_pressure = self.blood_pressure_var.get()
-        diabetic = self.diabetic_var.get()
-        heart_disease = self.heart_disease_var.get()
-        lactose_intolerance = self.lactose_intolerance_var.get()
-        nutrition_goal = self.nutrition_goal_var.get()
+        row = {
+            'age': self.age_entry.get(),
+            'weight': self.weight_entry.get(),
+            'height': self.height_entry.get(),
+            'gender': self.gender_var.get(),
+            'metabolic_rate': self.metabolic_rate_var.get(),
+            'physical_activity_intensity': self.physical_activity_var.get(),
+            'blood_pressure': self.blood_pressure_var.get(),
+            'diabetic': self.diabetic_var.get(),
+            'heart_disease': self.heart_disease_var.get(),
+            'lactose_intolerance': self.lactose_intolerance_var.get(),
+            'nutrition_goal': self.nutrition_goal_var.get()
+        }
 
-        # Perform calculation based on input attributes
-        # Dummy calculation for demonstration
-        proteins = 70
-        carbohydrates = 250
-        fats = 55
-        calcium = 1200
-        vitamin_a = 1200
-        vitamin_c = 800
-        calories = 2600
+        issues = validate_ui_attributes(row)
+        output_text = ""
+        if issues:
+            for issue in issues:
+                output_text += f'{issue}\n'
+        else:
+            output_row = infer(row, 'decision_trees/data_llama.json')
 
-        output_text = f"Proteins: {proteins}g\nCarbohydrates: {carbohydrates}g\nFats: {fats}g\nCalcium: {calcium}mg\nVitamin_A: {vitamin_a}mcg\nVitamin_C: {vitamin_c}mg\nCalories: {calories}kcal"
+            proteins = f"[{output_row['proteins']['min']}-{output_row['proteins']['max']}]"
+            carbohydrates = f"[{output_row['carbohydrates']['min']}-{output_row['carbohydrates']['max']}]"
+            fats = f"[{output_row['fats']['min']}-{output_row['fats']['max']}]"
+            calcium = f"[{output_row['calcium']['min']}-{output_row['calcium']['max']}]"
+            vitamin_a = f"[{output_row['vitamin_a']['min']}-{output_row['vitamin_a']['max']}]"
+            vitamin_c = f"[{output_row['vitamin_c']['min']}-{output_row['vitamin_c']['max']}]"
+            calories = f"[{output_row['calories']['min']}-{output_row['calories']['max']}]"
+            output_text = f"Proteins: {proteins}g\nCarbohydrates: {carbohydrates}g\nFats: {fats}g\nCalcium: {calcium}mg\nVitamin_A: {vitamin_a}mcg\nVitamin_C: {vitamin_c}mg\nCalories: {calories}kcal"
+        
         self.output_text.delete(1.0, tk.END)
         self.output_text.insert(tk.END, output_text)
 
