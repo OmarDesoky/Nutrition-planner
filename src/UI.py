@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import ttk
+from ttkbootstrap import Style
 from util import validate_ui_attributes
 from inference import infer
 
@@ -7,7 +8,13 @@ class NutritionCalculator:
     def __init__(self, root):
         self.root = root
         self.root.title("Nutrition Calculator")
-        
+
+        self.bg = tk.PhotoImage(file = "../images/background_image3.png") 
+        self.background = ttk.Label(root, image = self.bg) 
+        self.background.place(x = 0, y = 0) 
+
+        self.style = Style(theme='superhero')
+
         self.age_label = ttk.Label(root, text="Age(years):")
         self.age_label.grid(row=0, column=0, padx=5, pady=5, sticky="w")
         self.age_entry = ttk.Entry(root)
