@@ -10,13 +10,10 @@ class NutritionCalculator:
         self.root = root
         self.root.title("Nutrition Calculator")
 
-        # self.bg = tk.PhotoImage(file = "../images/background_image3.png") 
-        # self.background = ttk.Label(root, image = self.bg) 
-        # self.background.place(x = 0, y = 0) 
 
         self.style = Style(theme='superhero')
 
-        self.age_label = ttk.Label(root, text="Age(years):")
+        self.age_label = ttk.Label(root, text="Age:")
         self.age_label.grid(row=0, column=0, padx=5, pady=5, sticky="w")
         self.age_entry = ttk.Entry(root)
         self.age_entry.grid(row=0, column=1, padx=5, pady=5)
@@ -26,11 +23,6 @@ class NutritionCalculator:
         self.bmi_entry = ttk.Entry(root)
         self.bmi_entry.grid(row=1, column=1, padx=5, pady=5)
 
-        # self.height_label = ttk.Label(root, text="Height (m):")
-        # self.height_label.grid(row=2, column=0, padx=5, pady=5, sticky="w")
-        # self.height_entry = ttk.Entry(root)
-        # self.height_entry.grid(row=2, column=1, padx=5, pady=5)
-
         self.gender_label = ttk.Label(root, text="Gender:")
         self.gender_label.grid(row=2, column=0, padx=5, pady=5, sticky="w")
         self.gender_var = tk.StringVar()
@@ -38,79 +30,77 @@ class NutritionCalculator:
         self.gender_combobox.grid(row=2, column=1, padx=5, pady=5)
 
         self.metabolic_rate_label = ttk.Label(root, text="Metabolic rate:")
-        self.metabolic_rate_label.grid(row=4, column=0, padx=5, pady=5, sticky="w")
+        self.metabolic_rate_label.grid(row=3, column=0, padx=5, pady=5, sticky="w")
         self.metabolic_rate_var = tk.StringVar()
         self.metabolic_rate_combobox = ttk.Combobox(root, textvariable=self.metabolic_rate_var, values=["Very low", "Low", "Mid", "High", "Very high"])
-        self.metabolic_rate_combobox.grid(row=4, column=1, padx=5, pady=5)
+        self.metabolic_rate_combobox.grid(row=3, column=1, padx=5, pady=5)
 
         self.physical_activity_label = ttk.Label(root, text="Physical activity intensity:")
-        self.physical_activity_label.grid(row=5, column=0, padx=5, pady=5, sticky="w")
+        self.physical_activity_label.grid(row=4, column=0, padx=5, pady=5, sticky="w")
         self.physical_activity_var = tk.StringVar()
         self.physical_activity_combobox = ttk.Combobox(root, textvariable=self.physical_activity_var, values=["Very low", "Low", "Mid", "High", "Very high"])
-        self.physical_activity_combobox.grid(row=5, column=1, padx=5, pady=5)
+        self.physical_activity_combobox.grid(row=4, column=1, padx=5, pady=5)
 
         self.blood_pressure_label = ttk.Label(root, text="Blood pressure:")
-        self.blood_pressure_label.grid(row=6, column=0, padx=5, pady=5, sticky="w")
+        self.blood_pressure_label.grid(row=5, column=0, padx=5, pady=5, sticky="w")
         self.blood_pressure_var = tk.StringVar()
         self.blood_pressure_combobox = ttk.Combobox(root, textvariable=self.blood_pressure_var, values=["Hypotension", "Normal", "Hypertension"])
-        self.blood_pressure_combobox.grid(row=6, column=1, padx=5, pady=5)
+        self.blood_pressure_combobox.grid(row=5, column=1, padx=5, pady=5)
 
         self.diabetic_label = ttk.Label(root, text="Diabetic:")
-        self.diabetic_label.grid(row=7, column=0, padx=5, pady=5, sticky="w")
+        self.diabetic_label.grid(row=6, column=0, padx=5, pady=5, sticky="w")
         self.diabetic_var = tk.StringVar()
         self.diabetic_combobox = ttk.Combobox(root, textvariable=self.diabetic_var, values=["Normal", "High", "Severely high"])
-        self.diabetic_combobox.grid(row=7, column=1, padx=5, pady=5)
+        self.diabetic_combobox.grid(row=6, column=1, padx=5, pady=5)
 
         self.heart_disease_label = ttk.Label(root, text="Heart disease:")
-        self.heart_disease_label.grid(row=8, column=0, padx=5, pady=5, sticky="w")
+        self.heart_disease_label.grid(row=7, column=0, padx=5, pady=5, sticky="w")
         self.heart_disease_var = tk.StringVar()
-        self.heart_disease_combobox = ttk.Combobox(root, textvariable=self.heart_disease_var, values=["Yes", "No"])
-        self.heart_disease_combobox.grid(row=8, column=1, padx=5, pady=5)
+        self.heart_disease_combobox = ttk.Combobox(root, textvariable=self.heart_disease_var, values=["True", "False"])
+        self.heart_disease_combobox.grid(row=7, column=1, padx=5, pady=5)
 
         self.lactose_intolerance_label = ttk.Label(root, text="Lactose Intolerance:")
-        self.lactose_intolerance_label.grid(row=9, column=0, padx=5, pady=5, sticky="w")
+        self.lactose_intolerance_label.grid(row=8, column=0, padx=5, pady=5, sticky="w")
         self.lactose_intolerance_var = tk.StringVar()
-        self.lactose_intolerance_combobox = ttk.Combobox(root, textvariable=self.lactose_intolerance_var, values=["Normal", "High", "Severely high"])
-        self.lactose_intolerance_combobox.grid(row=9, column=1, padx=5, pady=5)
-
+        self.lactose_intolerance_combobox = ttk.Combobox(root, textvariable=self.lactose_intolerance_var, values=["Normal", "High", "Severely abnormal"])
+        self.lactose_intolerance_combobox.grid(row=8, column=1, padx=5, pady=5)
 
         self.anemia_label = ttk.Label(root, text="Anemia:")
-        self.anemia_label.grid(row=10, column=0, padx=5, pady=5, sticky="w")
+        self.anemia_label.grid(row=9, column=0, padx=5, pady=5, sticky="w")
         self.anemia_var = tk.StringVar()
         self.anemia_combobox = ttk.Combobox(root, textvariable=self.anemia_var, values=["Normal", "Abnormal", "Severely abnormal"])
-        self.anemia_combobox.grid(row=10, column=1, padx=5, pady=5)
+        self.anemia_combobox.grid(row=9, column=1, padx=5, pady=5)
 
         self.nutrition_goal_label = ttk.Label(root, text="Nutrition goal:")
-        self.nutrition_goal_label.grid(row=11, column=0, padx=5, pady=5, sticky="w")
+        self.nutrition_goal_label.grid(row=10, column=0, padx=5, pady=5, sticky="w")
         self.nutrition_goal_var = tk.StringVar()
         self.nutrition_goal_combobox = ttk.Combobox(root, textvariable=self.nutrition_goal_var, values=["Gain weight", "Lose weight", "Maintain weight", "Gain muscle", "Gain endurance"])
-        self.nutrition_goal_combobox.grid(row=11, column=1, padx=5, pady=5)
+        self.nutrition_goal_combobox.grid(row=10, column=1, padx=5, pady=5)
 
         self.calculate_button = ttk.Button(root, text="Calculate", command=self.calculate_nutrition)
-        self.calculate_button.grid(row=12, column=0, columnspan=2, padx=5, pady=5)
+        self.calculate_button.grid(row=11, column=0, columnspan=2, padx=5, pady=5)
 
         self.output_label = ttk.Label(root, text="Output:")
-        self.output_label.grid(row=13, column=0, padx=5, pady=5, sticky="w")
+        self.output_label.grid(row=12, column=0, padx=5, pady=5, sticky="w")
         self.output_text = tk.Text(root, height=10, width=50)
         self.output_text.grid(row=13, column=1, padx=5, pady=5)
 
     def calculate_nutrition(self):
         row = {
             'age': self.age_entry.get(),
+            'gender': self.gender_var.get().lower(),
             'bmi': self.bmi_entry.get(),
-            'gender': self.gender_var.get(),
-            'metabolic rate': self.metabolic_rate_var.get(),
-            'physical activity intensity': self.physical_activity_var.get(),
-            'blood pressure': self.blood_pressure_var.get(),
-            'diabetic': self.diabetic_var.get(),
-            'heart disease': self.heart_disease_var.get(),
-            'lactose intolerance': self.lactose_intolerance_var.get(),
-            'anemia': self.anemia_var.get(),
-            'nutrition goal': self.nutrition_goal_var.get()
+            'metabolic rate': self.metabolic_rate_var.get().lower(),
+            'physical activity intensity': self.physical_activity_var.get().lower(),
+            'blood pressure': self.blood_pressure_var.get().lower(),
+            'diabetic': self.diabetic_var.get().lower(),
+            'heart disease': self.heart_disease_var.get().lower(),
+            'anemia': self.anemia_var.get().lower(),
+            'lactose intolerance': self.lactose_intolerance_var.get().lower(),
+            'nutrition goal': self.nutrition_goal_var.get().lower()
         }
+        issues = validate_ui_attributes(row)
 
-        # issues = validate_ui_attributes(row)
-        issues = False
         output_text = ""
         if issues:
             for issue in issues:
@@ -133,7 +123,7 @@ class NutritionCalculator:
 
 def main():
     root = tk.Tk()
-    app = NutritionCalculator(root)
+    NutritionCalculator(root)
     root.mainloop()
 
 if __name__ == "__main__":

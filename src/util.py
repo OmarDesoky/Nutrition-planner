@@ -120,12 +120,6 @@ def validate_ui_attributes(row):
                 issues.append(
                     f"Please add a value for attribute {attribute} from this set of values {attributes['values'][attribute]}"
                 )
-    if not issues:
-        # row['bmi'] = row['weight']/(row['height']**2)
-        # row.pop('weight')
-        # row.pop('height')
-        row['heart disease'] = True if row['heart disease'] == "Yes" else False
-    row = convert_to_labels(row)
     return issues
 
 def age_to_class(age):
@@ -173,51 +167,3 @@ def bmi_to_class(bmi):
         return int(protein//25.001)
     except ValueError:
         pass
-
-# def fats_to_class(fats):
-#     try:
-#         fats = int(fats)
-#         fats -= 20
-#         return int(fats//10.001)
-#     except ValueError:
-#         pass    
-    
-# def calcium_to_class(calcium):
-#     try:
-#         calcium = int(calcium)
-#         calcium -= 1100
-#         return int(calcium//20.001)
-#     except ValueError:
-#         pass
-
-# def carbohydrates_to_class(carbohydrates):
-#     try:
-#         carbohydrates = int(carbohydrates)
-#         carbohydrates -= 200
-#         return int(carbohydrates//30.001)
-#     except ValueError:
-#         pass
-
-# def vitamin_a_to_class(vitamin_a):
-#     try:
-#         vitamin_a = int(vitamin_a)
-#         vitamin_a -= 1100
-#         return int(vitamin_a//20.001)
-#     except ValueError:
-#         pass
-
-# def vitamin_c_to_class(vitamin_c):
-#     try:
-#         vitamin_c = int(vitamin_c)
-#         vitamin_c -= 700
-#         return int(vitamin_c//20.001)
-#     except ValueError:
-#         pass
-
-# def calories_to_class(calories):
-#     try:
-#         calories = int(calories)
-#         calories -= 1500
-#         return int(calories//300.001)
-#     except ValueError:
-#         pass
